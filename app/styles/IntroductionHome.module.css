@@ -28,12 +28,37 @@
     font-weight: 300;
   }
   .intro1 {
-    font-style: italic;
+    /* font-style: italic; */
   }
   .intro2 {
     color: blue;
   }
+  @media (max-width: 1035px) {
+    .introcontainer {
+      flex-direction: column;
+    }
   
+    .logo {
+      text-align: center;
+      flex: 0;
+    }
+  
+    .logo img {
+      max-width: 100%; /* Adjust as needed */
+      margin-bottom: 1rem;
+      margin-left: 0;
+    }
+  
+    .paragraph {
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .paragraph p {
+      max-width: 100%; /* Adjust as needed */
+      margin: 0;
+    }
+  }
   @media (max-width: 768px) {
     .introcontainer {
       flex-direction: column;
@@ -41,15 +66,18 @@
   
     .logo {
       text-align: center;
+      flex: 0;
     }
   
     .logo img {
       max-width: 100%; /* Adjust as needed */
       margin-bottom: 1rem;
+      margin-left: 0;
     }
   
     .paragraph {
       text-align: center;
+      margin-left: 0;
     }
   
     .paragraph p {
