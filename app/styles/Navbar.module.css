@@ -1,0 +1,58 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logosize {
+  /* Styling for your logo */
+  width: auto;
+  height: 150px;
+  margin-left: 15px;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs a {
+  text-decoration: none;
+  margin: 0 1.5rem; /* Adjust the spacing between tabs as needed */
+  color: #333; /* Tab text color */
+  font-size: 20px;
+}
+.tabs a:hover,
+.tabs a.activelink {
+    color: blue;
+}
+
+.mobileMenu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menuButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
