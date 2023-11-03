@@ -13,7 +13,7 @@ const Navbar = ({ isHomepage }) => {
     visible: {
       opacity: 1,
       transition: {
-        delay: 10,
+        delay: 6,
         duration: 2,
       },
     },
@@ -31,11 +31,13 @@ const Navbar = ({ isHomepage }) => {
       {isHomepage ? (
         <div className={styles.navcontainer}>
           <div className={styles.logosize}>
+            <Link href="/">
             <img
               className={styles.logosize}
               src="/mainlogo.png"
               alt="Rook bird on a Rook Chesspiece"
             />
+            </Link>
           </div>
           <div className={styles.tabs}>
             <Link href="/about">About</Link>

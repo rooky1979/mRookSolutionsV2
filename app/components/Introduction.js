@@ -12,7 +12,7 @@ const Introduction = () => {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 3,
+        duration: 1.5,
       },
     },
   };
@@ -25,8 +25,8 @@ const Introduction = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 3.5,
-        delay: 3,
+        duration: 2.0,
+        delay: 1.5,
       },
     },
   };
@@ -39,8 +39,8 @@ const Introduction = () => {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 2.5,
-        delay: 5,
+        duration: 1,
+        delay: 3.5,
       },
     },
   };
@@ -58,8 +58,8 @@ const Introduction = () => {
     visible: {
       opacity: 1,
       transition: {
-        duration: 3,
-        delay: 6,
+        duration: 1.5,
+        delay: 4.5,
       },
     },
   };
