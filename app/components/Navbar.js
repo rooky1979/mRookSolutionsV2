@@ -1,16 +1,33 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
+import { motion } from "framer-motion";
+import MobileMenu from "./MobileMenu";
+import MenuButton from "./MenuButton";
 
 const Navbar = ({ isHomepage }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navVariants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 10,
+        duration: 2,
+      },
+    },
+  };
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const navbarClass = isHomepage ? "navbarhome" : "navbarother";
+
   return (
-    <nav className={styles.navbar}>
+    <nav className={`${styles.navbar} ${navbarClass}`}>
       {isHomepage ? (
         <div className={styles.navcontainer}>
           <div className={styles.logosize}>
@@ -20,46 +37,6 @@ const Navbar = ({ isHomepage }) => {
               alt="Rook bird on a Rook Chesspiece"
             />
           </div>
-          {isMenuOpen ? (
-            <div className={styles.menu}>
-              <button onClick={toggleMenu} className={styles.menuButton}>
-                Close
-              </button>
-              <ul className={styles.mobileMenu}>
-                <li>
-                  <Link href="/about">About</Link>
-                </li>
-                <li>
-                  <Link href="/projects">Projects</Link>
-                </li>
-                <li>
-                  <Link href="/technologies">Technologies</Link>
-                </li>
-                <li>
-                  <Link href="/experience">Experience</Link>
-                </li>
-                <li>
-                  <Link href="/education">Education</Link>
-                </li>
-              </ul>
-            </div>
-          ) : (
-            <div className={styles.tabs}>
-              <Link href="/about">About</Link>
-              <Link href="/projects">Projects</Link>
-              <Link href="/technologies">Technologies</Link>
-              <Link href="/experience">Experience</Link>
-              <Link href="/education">Education</Link>
-              <button onClick={toggleMenu} className={styles.menuButton}>
-                Menu
-              </button>
-            </div>
-          )}
-        </div>
-      ) : (
-        <div className={styles.navcontainer}>
-          <div className={styles.logosize}>
-          </div>
           <div className={styles.tabs}>
             <Link href="/about">About</Link>
             <Link href="/projects">Projects</Link>
@@ -67,10 +44,33 @@ const Navbar = ({ isHomepage }) => {
             <Link href="/experience">Experience</Link>
             <Link href="/education">Education</Link>
           </div>
+          <MenuButton isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
         </div>
+      ) : (
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={navVariants}
+          className={styles.navcontainer}
+        >
+          <div style={{ height: "50px" }}></div>
+          <div className={styles.tabs}>
+            <Link href="/about">About</Link>
+            <Link href="/projects">Projects</Link>
+            <Link href="/technologies">Technologies</Link>
+            <Link href="/experience">Experience</Link>
+            <Link href="/education">Education</Link>
+          </div>
+          <MenuButton isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+        </motion.div>
+      )}
+      {/* The mobile menu */}
+      {isMenuOpen ? (
+        <MobileMenu isOpen={isMenuOpen} />
+      ) : (
+        <MobileMenu isOpen={isMenuOpen} />
       )}
     </nav>
   );
 };
-
 export default Navbar;
