@@ -53,7 +53,7 @@ const Navbar = ({ isHomepage }) => {
           variants={navVariants}
           className={styles.navcontainer}
         >
-          <div style={{ height: "50px" }}></div>
+          <div style={{ height: "30px" }}></div>
           <div className={styles.tabs}>
             <Link href="/about">About</Link>
             <Link href="/projects">Projects</Link>
