@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
+    "gsap": "^3.12.2",
     "next": "^14.0.1",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "scrollmagic": "^2.0.8",
+    "scrollmagic-plugin-gsap": "^1.0.4"
   },
   "devDependencies": {
     "eslint": "latest",

@@ -1,0 +1,11 @@
+.aboutsection {
+  text-align: center;
+  padding: 3rem 0;
+}
+.aboutTitle {
+  opacity: 0;
+  /* transition: opacity 0.5s, transform 0.5s; */
+  font-size: 100px;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
