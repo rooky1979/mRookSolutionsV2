@@ -1,27 +1,16 @@
-import React, { useState, useEffect, useRef } from 'react';
-import styles from '../styles/AboutHomepage.module.css';
-import Timeline from './Timeline';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React, { useState, useEffect, useRef } from "react";
+import styles from "../styles/AboutHomepage.module.css";
+import Timeline from "./Timeline";
+import TimelineElement from "./TimelineElement";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   const [scrollY, setScrollY] = useState(0);
   const aboutTitleRef = useRef(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
+  
   useEffect(() => {
     if (aboutTitleRef.current) {
       gsap.to(aboutTitleRef.current, {
@@ -29,9 +18,9 @@ const About = () => {
         y: 0,
         scrollTrigger: {
           trigger: aboutTitleRef.current,
-          start: 'top 80%',
-          end: 'top 60%',
-          toggleActions: 'play none none reverse',
+          start: "top 70%",
+          end: "top 60%",
+          toggleActions: "play none none reverse",
         },
       });
     }
@@ -46,9 +35,7 @@ const About = () => {
       >
         About...
       </h2>
-      <Timeline scrollY={scrollY}>
-        {/* Your timeline elements */}
-      </Timeline>
+      <Timeline scrollY={scrollY} />
     </section>
   );
 };
