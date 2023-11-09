@@ -3,13 +3,14 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "../styles/Timeline.module.css";
 import TimelineElement from "./TimelineElement";
+import LeftTimelinePhotos from "./LeftTimelinePhotos";
+import RightTimelinePhotos from "./RightTimelinePhotos";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Timeline = ({ scrollY }) => {
-
   const timelineRef = useRef(null);
-  
+
   useEffect(() => {
     if (timelineRef.current) {
       gsap.to(timelineRef.current, {
@@ -27,6 +28,7 @@ const Timeline = ({ scrollY }) => {
 
   return (
     <div className={styles.centerTimeline}>
+      <LeftTimelinePhotos />
       <div ref={timelineRef} style={{ opacity: 0 }} className={styles.timeline}>
         <div className={styles.outer}>
           <TimelineElement
@@ -67,6 +69,7 @@ const Timeline = ({ scrollY }) => {
           />
         </div>
       </div>
+      <RightTimelinePhotos />
     </div>
   );
 };

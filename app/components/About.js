@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "../styles/AboutHomepage.module.css";
 import Timeline from "./Timeline";
-import TimelineElement from "./TimelineElement";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
