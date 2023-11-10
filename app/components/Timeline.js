@@ -9,7 +9,7 @@ import PhotoModel from "./PhotoModel";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Timeline = ({ scrollY }) => {
+const Timeline = () => {
   const timelineRef = useRef(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPhoto, setCurrentPhoto] = useState(null);

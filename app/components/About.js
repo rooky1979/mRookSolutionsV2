@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, {useEffect, useRef } from "react";
+import Link from "next/link";
 import styles from "../styles/AboutHomepage.module.css";
 import Timeline from "./Timeline";
 import { gsap } from "gsap";
@@ -7,7 +8,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
-  const [scrollY, setScrollY] = useState(0);
   const aboutTitleRef = useRef(null);
   
   useEffect(() => {
@@ -34,7 +34,10 @@ const About = () => {
       >
         About...
       </h2>
-      <Timeline scrollY={scrollY} />
+      <Timeline />
+      <div className={styles.link}>
+      <Link href="/about">Click to read more...</Link>
+      </div>
     </section>
   );
 };
