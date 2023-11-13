@@ -32,7 +32,7 @@ const About = () => {
         className={styles.aboutTitle}
         style={{ opacity: 0 }}
       >
-        About...
+        About
       </h2>
       <Timeline />
       <div className={styles.link}>

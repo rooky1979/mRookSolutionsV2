@@ -149,7 +149,7 @@ const ProjectCarousel = ({ text, images }) => {
         )}
       </AnimatePresence>
       <div className={styles.link}>
-      <Link href="/projects">Click to read about projects...</Link>
+      <Link href="/projects">Click here to read about projects...</Link>
       </div>
     </motion.div>
   );
