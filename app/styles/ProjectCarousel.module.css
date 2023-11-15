@@ -68,12 +68,12 @@
   padding: 10px;
   font-size: 1.5rem; 
   cursor: pointer;
-  z-index: 1; 
+  z-index: 0; 
   transition: background-color 0.3s ease; 
   margin-right: 2rem;
 }
 .arrowLeft:hover {
-  background-color: #3f474e; 
+  background-color: #9e9fa1; 
 }
 .arrowRight {
   transform: translateY(-50%); 
@@ -85,12 +85,12 @@
   padding: 10px;
   font-size: 1.5rem; 
   cursor: pointer;
-  z-index: 1; 
+  z-index: 0; 
   transition: background-color 0.3s ease; 
   margin-left: 2rem;
 }
 .arrowRight:hover {
-  background-color: #3f474e;
+  background-color: #9e9fa1;
 }
 .textcontainer {
   display: flex;

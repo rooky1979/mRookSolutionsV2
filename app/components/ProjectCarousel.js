@@ -91,6 +91,9 @@ const ProjectCarousel = ({ text, images }) => {
       className={styles.mainpage}
     >
       <h2 className={styles.title}>Projects</h2>
+      <div className={styles.link}>
+      <Link href="/projects">Click here to read about projects...</Link>
+      </div>
       <div className={styles.bodycontainer}>
         <div className={styles.carousel}>
           <div className={styles.embla} ref={emblaRef}>
@@ -148,9 +151,6 @@ const ProjectCarousel = ({ text, images }) => {
           </motion.div>
         )}
       </AnimatePresence>
-      <div className={styles.link}>
-      <Link href="/projects">Click here to read about projects...</Link>
-      </div>
     </motion.div>
   );
 };
