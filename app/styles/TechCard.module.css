@@ -3,6 +3,8 @@
   width: 300px;
   height: 350px;
   overflow: hidden;
+  flex: 2;
+  padding: 30px;
 }
 .carousel {
   width: 100%;

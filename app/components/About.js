@@ -36,7 +36,7 @@ const About = () => {
       </h2>
       <Timeline />
       <div className={styles.link}>
-      <Link href="/about">Click to read more...</Link>
+      <Link href="/about">More about me here...</Link>
       </div>
     </section>
   );

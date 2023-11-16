@@ -82,7 +82,7 @@
       font-size: 21px;
     }
   }
-  @media (max-width: 1035px) {/* HERE */
+  @media (max-width: 1035px) {
     .paragraph p {
       font-size: 40px;
     }

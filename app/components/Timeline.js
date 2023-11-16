@@ -49,7 +49,7 @@ const Timeline = () => {
             description="7lb 6oz. Reading, England"
           />
           <TimelineElement
-            title="1999/2001"
+            title="1997/2001"
             description="Travel: Costa Rica, Indonesia, Australia"
           />
           <TimelineElement
