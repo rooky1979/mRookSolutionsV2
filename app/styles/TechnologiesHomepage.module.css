@@ -30,6 +30,18 @@
     font-style: italic;
     font-weight: 200;
 }
+.fullstackcontainer {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3dfc997;
+    margin-bottom: 20px;
+}
+.fullstack {
+    max-width: 100%;
+    height: auto;
+}
 @media (max-width: 1235px) {
   .technologies {
       flex-direction: column;

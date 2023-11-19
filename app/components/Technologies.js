@@ -11,6 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Technologies = () => {
   const carousel1Interval = 2000;
   const techRef = useRef(null);
+  const stackRef = useRef(null);
 
   useEffect(() => {
     if (techRef.current) {
@@ -19,15 +20,28 @@ const Technologies = () => {
         y: 0,
         scrollTrigger: {
           trigger: techRef.current,
-          start: "top 40%",
+          start: "top 50%",
           end: "top 40%",
           toggleActions: "play none none reverse",
         },
       });
     }
-  }, [techRef]);
+    if (stackRef.current) {
+      gsap.to(stackRef.current, {
+        opacity: 1,
+        y: 0,
+        scrollTrigger: {
+          trigger: stackRef.current,
+          start: "top 50%",
+          end: "top 40%",
+          toggleActions: "play none none reverse",
+        },
+      });
+    }
+  }, [techRef, stackRef]);
 
   return (
+    <>
     <div
       className={styles.technologies}
       ref={techRef}
@@ -44,6 +58,11 @@ const Technologies = () => {
       </div>
       <TechCard images={techList1} interval={carousel1Interval} />
     </div>
+      <div       ref={stackRef}
+      style={{ opacity: 0 }} className={styles.fullstackcontainer}>
+        <img className={styles.fullstack} src="/fullstack.png" alt="examples of full-stack technologies"/>
+      </div>
+    </>
   );
 };
 
