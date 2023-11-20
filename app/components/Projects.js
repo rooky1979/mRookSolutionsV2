@@ -19,7 +19,7 @@ const Projects = () => {
         rotate: 360,
         scrollTrigger: {
           trigger: projectsRef.current,
-          start: "top 40%",
+          start: "top 80%",
           end: "top 40%",
           toggleActions: "play none none reverse",
         },

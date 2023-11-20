@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 import Experience from "./components/Experience"
+import Education from "./components/Education"
 import { techList } from "@/techList"
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Technologies techList={techList}/>
       <Experience />
+      <Education />
     </div>
   )
 }

@@ -29,7 +29,9 @@ const Technologies = () => {
     if (stackRef.current) {
       gsap.to(stackRef.current, {
         opacity: 1,
-        y: 0,
+        x: 0,
+        ease: "elastic.inOut",
+        duration: 1.5,
         scrollTrigger: {
           trigger: stackRef.current,
           start: "top 50%",
@@ -58,7 +60,7 @@ const Technologies = () => {
       </div>
       <div
         ref={stackRef}
-        style={{ opacity: 0 }}
+        style={{ opacity: 0, transform: "translateX(100%)" }}
         className={styles.fullstackcontainer}
       >
         <img
