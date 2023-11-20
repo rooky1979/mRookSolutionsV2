@@ -4,6 +4,7 @@ import About from "./components/About"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
+import Experience from "./components/Experience"
 import { techList } from "@/techList"
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Projects />
       <Technologies techList={techList}/>
+      <Experience />
     </div>
   )
 }

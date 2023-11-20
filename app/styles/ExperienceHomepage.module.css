@@ -1,8 +1,19 @@
-.projectcontainer {
+.experiencecontainer {
     display: flex;
-    background-color: #C7EFCF;
+    background-color: #AABCC5;
     flex-direction: row;
+    margin-bottom: 20px;
 }
+.image {
+    flex: 1;
+    text-align: right;
+    
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+  }
 .quotecontainer {
     align-items: center;
     justify-content: center;
@@ -28,7 +39,7 @@
     margin-top: 20px;
   }
   @media (max-width: 1235px) {
-    .projectcontainer {
+    .experiencecontainer {
         flex-direction: column;
     }
     .quotecontainer {
@@ -38,13 +49,15 @@
   @media (max-width: 431px) {
     .title {
       font-size: 60px;
+      margin-left: 20px;
     }
-    .quotecontainer {
+    .experiencecontainer {
       margin-right: 0px;
       padding: 15px;
     }
     .quote {
-      font-size: 24px;
+        margin-left: 15px;
+        font-size: 24px;
     }
     .link {
       font-size: 20px;

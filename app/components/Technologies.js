@@ -33,7 +33,7 @@ const Technologies = () => {
         scrollTrigger: {
           trigger: stackRef.current,
           start: "top 50%",
-          end: "top 40%",
+          end: "top 10%",
           toggleActions: "play none none reverse",
         },
       });
@@ -42,25 +42,30 @@ const Technologies = () => {
 
   return (
     <>
-    <div
-      className={styles.technologies}
-      ref={techRef}
-      style={{ opacity: 0 }}
-    >
-      <div className={styles.quotecontainer}>
-        <h2 className={styles.techTitle}>Technologies</h2>
-        <p className={styles.quote}>
-          "I believe it's important to have exposure to a wide range of technologies and frameworks; but double down on a select few. Fundamentals are key."
-        </p>
-        <div className={styles.link}>
-          <Link href="/projects">Read about technologies here...</Link>
+      <div className={styles.technologies} ref={techRef} style={{ opacity: 0 }}>
+        <div className={styles.quotecontainer}>
+          <h2 className={styles.techTitle}>Technologies</h2>
+          <p className={styles.quote}>
+            "I believe it's important to have exposure to a wide range of
+            technologies and frameworks; but double down on a select few.
+            Fundamentals are key."
+          </p>
+          <div className={styles.link}>
+            <Link href="/technologies">Read about technologies here...</Link>
+          </div>
         </div>
+        <TechCard images={techList1} interval={carousel1Interval} />
       </div>
-      <TechCard images={techList1} interval={carousel1Interval} />
-    </div>
-      <div       ref={stackRef}
-      style={{ opacity: 0 }} className={styles.fullstackcontainer}>
-        <img className={styles.fullstack} src="/fullstack.png" alt="examples of full-stack technologies"/>
+      <div
+        ref={stackRef}
+        style={{ opacity: 0 }}
+        className={styles.fullstackcontainer}
+      >
+        <img
+          className={styles.fullstack}
+          src="/fullstack.png"
+          alt="examples of full-stack technologies"
+        />
       </div>
     </>
   );
