@@ -9,12 +9,15 @@ export default function about() {
       <Navbar isHomepage={true} />
       <h2 className={styles.title}>About</h2>
       <div className={styles.aboutcontainer}>
+      <div className={styles.image}>
+          <img src="/me.jpeg" alt="Me at Stonehenge" />
+        </div>
         <div className={styles.textcontainer}>
           <p className={styles.text}>
             I spent 17 years in the world of Analytical Chemistry and various
-            pharmaceutical companies ranging from OTC medicines, to supplements,
-            veterinarian, prescription and antibiotics before moving to
-            Validation. It was there installing, qualifying and validating
+            pharmaceutical companies ranging from OTC medicines to supplements,
+            veterinarian, prescription, and antibiotics before moving to
+            Validation. It was there installing, qualifying, and validating
             computerised systems and equipment where I found my love and passion
             of IT.
           </p>
@@ -24,36 +27,36 @@ export default function about() {
             HPLCs and their PCs I wished I had gone into IT instead of science,
             but telling myself not to do anything about it with things like "I'm
             too old", or "I can't afford to go to University, I have a mortgage
-            to pay". I recognise now exactly those for what they were.....
-            Excuses.
+            to pay". I recognise now exactly those "justifications" for what
+            they were..... Excuses and Fear.
           </p>
           <br />
           <p className={styles.text}>
-            In 2017 after a personal experience came to a head, I decided to
-            throw caution to the wind and go for it. no more
-            self-justifications, rationalisations and excuses. I enrolled at AUT
-            full-time in a BSc Computer and Information Sciences degree majoring
-            in Software Development and I have never looked back. To switch
-            careers at 39 was one of the most scariest things I have ever done.
-            The fear of the unknown was intense. Self doubt and imposter
-            syndrome was rampant. "What if I fail?". But I seem to operate under
-            pressure best and when I want something I tend to go for it. All or
-            nothing.
+            In 2017 after a personal experience came to a head, I decided to go
+            for it. No more self-justifications, rationalisations, and excuses.
+            I enrolled at AUT full-time in a BSc Computer and Information
+            Sciences degree majoring in Software Development, and I have never
+            looked back. To switch careers at 39 was one of the scariest things
+            I have ever done. The fear of the unknown was intense. Self doubt
+            and imposter syndrome were rampant. "What if I fail?". But I seem to
+            operate under pressure best and when I want something I tend to go
+            for it. All or nothing.
           </p>
           <br />
           <p className={styles.text}>
             Since graduating in 2021 with a GPA of 7.2 (A-) and many
             interviews/rejections later, I landed my first job at Deloitte on
-            the learning track as a Consultant/Specialist where I currently
-            reside and building little personal projects in my own time to keep
-            learning new skills.
+            the learning track as a Consultant/Specialist in SAP ABAP
+            development and on course to become a full-stack developer (SAP
+            Fiori, CAP, RAP, CPI etc) where I currently reside and building
+            little personal projects in my own time to keep learning new skills.
           </p>
           <br />
           <p className={styles.text}>
             My fears of being too old I know now were unjust and untrue. What I
             have from my previous career is a wealth of transferable skills and
             life experience. I came out of university to my job knowing that in
-            order to progress in this new career, I have to stay humble. Without
+            order to progress in this new career, I must stay humble. Without
             ego. So that I can listen and learn. To be open minded to new ideas
             so that I remain teachable so I can continue to grow. My fears
             turned out to be some of my greatest assets.
@@ -80,7 +83,6 @@ export default function about() {
           </p>
         </div>
         <div className={styles.image}>
-          <img src="/me.jpeg" alt="Me at Stonehenge" />
           <img src="/family.jpeg" alt="Family at Disney" />
         </div>
       </div>

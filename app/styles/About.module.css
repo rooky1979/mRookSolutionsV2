@@ -3,25 +3,27 @@
     background-color: none;
     flex-direction: row;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 .title {
     font-size: 80px;
     font-weight: 200;
     margin-top: 20px;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     display: flex;
-    margin-left: 40px;
 }
 .image {
     flex: 1;
     text-align: right;
     background-color: none;
+    padding: 20px;
   }
   .image img {
     max-width: 100%;
     height: auto;
-    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .textcontainer {
     align-items: center;
@@ -38,22 +40,42 @@
 @media (max-width: 1235px) {
     .aboutcontainer {
         flex-direction: column;
+        margin: 0;
     }
     .textcontainer {
-        text-align: center;
+        margin-right: 30px;
     }
+    .image img {
+      max-width: 50%;
+      height: auto;
+
   }
-  @media (max-width: 431px) {
+  }
+  @media (max-width: 1024px) {
     .title {
       font-size: 60px;
-      margin-left: 20px;
+    }
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media (max-width: 540px) {
+    .title {
+      font-size: 60px;
     }
     .aboutcontainer {
-      margin-right: 0px;
-      padding: 15px;
+      margin: 0;
     }
+    .textcontainer {
+      text-align: center;
+      margin: 10px;
+  }
     .text {
-        margin-left: 15px;
-        font-size: 24px;
+        font-size: 18px;
     }
+    .image img {
+      max-width: 100%;
+  }
   }
