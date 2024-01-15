@@ -18,7 +18,7 @@ const Education = () => {
           duration: 1.5,
           scrollTrigger: {
             trigger: educationRef.current,
-            start: "top 50%",
+            start: "top 70%",
             end: "top 40%",
             toggleActions: "play none none reverse",
           },

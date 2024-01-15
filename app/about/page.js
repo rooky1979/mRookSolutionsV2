@@ -79,7 +79,7 @@ export default function about() {
           <p className={styles.text}>
             But don't let my cheerful demeanour fool you. When it's time to get
             down to business, I am a man of sheer will and determination. I get
-            things done. Say what I'll do and do what I say.
+            things done. I say what I'll do and do what I say.
           </p>
         </div>
         <div className={styles.image}>
