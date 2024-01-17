@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import styles from "../styles/Timeline.module.css";
+import timelineStyles from "../styles/Timeline.module.css";
 import TimelineElement from "./TimelineElement";
 import LeftTimelinePhotos from "./LeftTimelinePhotos";
 import RightTimelinePhotos from "./RightTimelinePhotos";
@@ -40,10 +40,10 @@ const Timeline = () => {
   };
 
   return (
-    <div className={styles.centerTimeline}>
+    <div className={timelineStyles.centerTimeline}>
       <LeftTimelinePhotos openModel={openModel} />
-      <div ref={timelineRef} style={{ opacity: 0 }} className={styles.timeline}>
-        <div className={styles.outer}>
+      <div ref={timelineRef} style={{ opacity: 0 }} className={timelineStyles.timeline}>
+        <div className={timelineStyles.outer}>
           <TimelineElement
             title="Born: June 1979"
             description="7lb 6oz. Reading, England"

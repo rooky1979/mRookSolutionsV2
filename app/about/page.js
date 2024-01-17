@@ -1,19 +1,19 @@
 "use client";
 import React from "react";
 import Navbar from "../components/Navbar";
-import styles from "../styles/About.module.css";
+import aboutStyles from "../styles/About.module.css";
 
 export default function about() {
   return (
     <>
       <Navbar isHomepage={true} />
-      <h2 className={styles.title}>About</h2>
-      <div className={styles.aboutcontainer}>
-      <div className={styles.image}>
+      <h2 className={aboutStyles.title}>About</h2>
+      <div className={aboutStyles.aboutcontainer}>
+      <div className={aboutStyles.image}>
           <img src="/me.jpeg" alt="Me at Stonehenge" />
         </div>
-        <div className={styles.textcontainer}>
-          <p className={styles.text}>
+        <div className={aboutStyles.textcontainer}>
+          <p className={aboutStyles.text}>
             I spent 17 years in the world of Analytical Chemistry and various
             pharmaceutical companies ranging from OTC medicines to supplements,
             veterinarian, prescription, and antibiotics before moving to
@@ -22,7 +22,7 @@ export default function about() {
             of IT.
           </p>
           <br />
-          <p className={styles.text}>
+          <p className={aboutStyles.text}>
             In 2014 during a big project of installing, upgrading and qualifying
             HPLCs and their PCs I wished I had gone into IT instead of science,
             but telling myself not to do anything about it with things like "I'm
@@ -31,7 +31,7 @@ export default function about() {
             they were..... Excuses and Fear.
           </p>
           <br />
-          <p className={styles.text}>
+          <p className={aboutStyles.text}>
             In 2017 after a personal experience came to a head, I decided to go
             for it. No more self-justifications, rationalisations, and excuses.
             I enrolled at AUT full-time in a BSc Computer and Information
@@ -43,7 +43,7 @@ export default function about() {
             for it. All or nothing.
           </p>
           <br />
-          <p className={styles.text}>
+          <p className={aboutStyles.text}>
             Since graduating in 2021 with a GPA of 7.2 (A-) and many
             interviews/rejections later, I landed my first job at Deloitte on
             the learning track as a Consultant/Specialist in SAP ABAP
@@ -52,7 +52,7 @@ export default function about() {
             little personal projects in my own time to keep learning new skills.
           </p>
           <br />
-          <p className={styles.text}>
+          <p className={aboutStyles.text}>
             My fears of being too old I know now were unjust and untrue. What I
             have from my previous career is a wealth of transferable skills and
             life experience. I came out of university to my job knowing that in
@@ -62,7 +62,7 @@ export default function about() {
             turned out to be some of my greatest assets.
           </p>
           <br />
-          <p className={styles.text}>
+          <p className={aboutStyles.text}>
             I live my life by some simple values that I believe are paramount in
             both professional and personal life. Honesty, loyalty, integrity,
             accountability, and being of service. Living by these values
@@ -70,19 +70,19 @@ export default function about() {
             business and personal.
           </p>
           <br />
-          <p className={styles.text}>
+          <p className={aboutStyles.text}>
             I laugh, I joke. I stay child-like, but not childish. I surf, I
             skate, I play pinball and retro games. I love cinema and spending
             time with family and friends. I love life.
           </p>
           <br />
-          <p className={styles.text}>
+          <p className={aboutStyles.text}>
             But don't let my cheerful demeanour fool you. When it's time to get
             down to business, I am a man of sheer will and determination. I get
             things done. I say what I'll do and do what I say.
           </p>
         </div>
-        <div className={styles.image}>
+        <div className={aboutStyles.image}>
           <img src="/family.jpeg" alt="Family at Disney" />
         </div>
       </div>

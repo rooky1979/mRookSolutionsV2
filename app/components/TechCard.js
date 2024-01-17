@@ -1,7 +1,5 @@
-// Carousel.js
-
 import React, { useState, useEffect } from 'react';
-import styles from '../styles/TechCard.module.css';
+import cardStyles from '../styles/TechCard.module.css';
 
 const Carousel = ({ images, interval }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,12 +22,12 @@ const Carousel = ({ images, interval }) => {
   };
 
   return (
-    <div className={styles.carouselContainer}>
-      <div className={styles.carousel} style={inlineStyle}>
+    <div className={cardStyles.carouselContainer}>
+      <div className={cardStyles.carousel} style={inlineStyle}>
         <img
           src={images[currentIndex]}
           alt={`carousel-item-${currentIndex}`}
-          className={styles.image}
+          className={cardStyles.image}
         />
       </div>
     </div>

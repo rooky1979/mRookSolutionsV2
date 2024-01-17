@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
-import styles from "../styles/ExperienceHomepage.module.css";
+import experiencehomeStyles from "../styles/ExperienceHomepage.module.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -30,21 +30,21 @@ const Experience = () => {
     <div
       ref={experienceRef}
       style={{ opacity: 0, transform: "translateX(-100%)" }}
-      className={styles.experiencecontainer}
+      className={experiencehomeStyles.experiencecontainer}
     >
-      <div className={styles.image}>
+      <div className={experiencehomeStyles.image}>
         <img src="/falcon.jpeg" alt="Millennium Falcon" />
       </div>
-      <div className={styles.quotecontainer}>
-        <h2 className={styles.title}>Experience</h2>
-        <p className={styles.quote}>
+      <div className={experiencehomeStyles.quotecontainer}>
+        <h2 className={experiencehomeStyles.title}>Experience</h2>
+        <p className={experiencehomeStyles.quote}>
           "It was scary thing to make the jump from 17 years in Analytical
           Chemistry/Validation to Software Development at 39; but it's the best
           thing I ever done going at it warp speed. I've learned that I have
           more transferable skills/assets than I realised and a lot to offer as
           a mature graduate whilst gaining new ones."
         </p>
-        <div className={styles.link}>
+        <div className={experiencehomeStyles.link}>
           <Link href="/projects">Read about experience here...</Link>
         </div>
       </div>

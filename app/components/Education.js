@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
-import styles from "../styles/EducationHomepage.module.css";
+import educationhomeStyles from "../styles/EducationHomepage.module.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -30,18 +30,18 @@ const Education = () => {
       <div
         ref={educationRef}
         style={{ opacity: 0, transform: "translateX(100%)" }}
-        className={styles.educationcontainer}
+        className={educationhomeStyles.educationcontainer}
       >
-        <div className={styles.quotecontainer}>
-          <h2 className={styles.title}>Education</h2>
-          <p className={styles.quote}>
+        <div className={educationhomeStyles.quotecontainer}>
+          <h2 className={educationhomeStyles.title}>Education</h2>
+          <p className={educationhomeStyles.quote}>
             "I love learning and it will be a neverending quest. I believe the key is to remain humble and without ego. That keeps me open minded to new ideas and remain teachable. When surrounded by smarter people, I listen and soak it in. Success always leaves clues to follow."
           </p>
-          <div className={styles.link}>
+          <div className={educationhomeStyles.link}>
             <Link href="/education">Read about education here...</Link>
           </div>
         </div>
-        <div className={styles.image}>
+        <div className={educationhomeStyles.image}>
           <img src="/library.jpg" alt="Library" />
         </div>
       </div>

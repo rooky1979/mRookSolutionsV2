@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import ProjectCarousel from "./ProjectCarousel";
-import styles from "../styles/ProjectsHomepage.module.css";
+import projectshomeStyles from "../styles/ProjectsHomepage.module.css";
 import Link from "next/link";
-import { projects } from "@/techList";
+import { projects } from "techList";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -28,18 +28,18 @@ const Projects = () => {
   }, [projectsRef]);
 
   return (
-    <div className={styles.projectcontainer}
+    <div className={projectshomeStyles.projectcontainer}
     ref={projectsRef}
         style={{ opacity: 0 }}>
       <ProjectCarousel images={projects} />
-      <div className={styles.quotecontainer}>
-        <h2 className={styles.title}>Projects</h2>
-        <p className={styles.quote}>
+      <div className={projectshomeStyles.quotecontainer}>
+        <h2 className={projectshomeStyles.title}>Projects</h2>
+        <p className={projectshomeStyles.quote}>
           "With technology and frameworks constantly changing, it's important
           for me to stay active, contemporary and not stagnate. Keep the code
           rust off and not get left behind."
         </p>
-        <div className={styles.link}>
+        <div className={projectshomeStyles.link}>
           <Link href="/projects">Read about projects here...</Link>
         </div>
       </div>

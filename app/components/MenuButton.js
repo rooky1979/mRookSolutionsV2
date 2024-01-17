@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Navbar.module.css";
+import buttonStyles from "../styles/Navbar.module.css";
 import { motion } from "framer-motion";
 
 const MenuButton = ({ isMenuOpen, toggleMenu }) => {
@@ -8,7 +8,7 @@ const MenuButton = ({ isMenuOpen, toggleMenu }) => {
       initial="hide"
       animate={isMenuOpen ? "show" : "hide"}
       onClick={toggleMenu}
-      className={styles.button}
+      className={buttonStyles.button}
     >
       <motion.span
         variants={{
@@ -20,7 +20,7 @@ const MenuButton = ({ isMenuOpen, toggleMenu }) => {
             y: 11,
           },
         }}
-        className={styles.burgerbar}
+        className={buttonStyles.burgerbar}
       ></motion.span>
       <motion.span
         variants={{
@@ -31,7 +31,7 @@ const MenuButton = ({ isMenuOpen, toggleMenu }) => {
             opacity: 0,
           },
         }}
-        className={styles.burgerbar}
+        className={buttonStyles.burgerbar}
       ></motion.span>
       <motion.span
         variants={{
@@ -43,7 +43,7 @@ const MenuButton = ({ isMenuOpen, toggleMenu }) => {
             y: -5,
           },
         }}
-        className={styles.burgerbar}
+        className={buttonStyles.burgerbar}
       ></motion.span>
     </motion.button>
   );

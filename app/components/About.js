@@ -1,6 +1,6 @@
 import React, {useEffect, useRef } from "react";
 import Link from "next/link";
-import styles from "../styles/AboutHomepage.module.css";
+import abouthomeStyles from "../styles/AboutHomepage.module.css";
 import Timeline from "./Timeline";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -26,16 +26,16 @@ const About = () => {
   }, [aboutTitleRef]);
 
   return (
-    <section className={styles.aboutsection}>
+    <section className={abouthomeStyles.aboutsection}>
       <h2
         ref={aboutTitleRef}
-        className={styles.aboutTitle}
+        className={abouthomeStyles.aboutTitle}
         style={{ opacity: 0 }}
       >
         About
       </h2>
       <Timeline />
-      <div className={styles.link}>
+      <div className={abouthomeStyles.link}>
       <Link href="/about">More about me here...</Link>
       </div>
     </section>

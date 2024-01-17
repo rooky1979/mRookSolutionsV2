@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import styles from "../styles/Navbar.module.css";
+import navStyles from "../styles/Navbar.module.css";
 import { motion } from "framer-motion";
 import MobileMenu from "./MobileMenu";
 import MenuButton from "./MenuButton";
@@ -27,19 +27,19 @@ const Navbar = ({ isHomepage }) => {
   const navbarClass = isHomepage ? "navbarhome" : "navbarother";
 
   return (
-    <nav className={`${styles.navbar} ${navbarClass}`}>
+    <nav className={`${navStyles.navbar} ${navbarClass}`}>
       {isHomepage ? (
-        <div className={styles.navcontainer}>
-          <div className={styles.logosize}>
+        <div className={navStyles.navcontainer}>
+          <div className={navStyles.logosize}>
             <Link href="/">
             <img
-              className={styles.logosize}
+              className={navStyles.logosize}
               src="/mainlogo.png"
               alt="Rook bird on a Rook Chesspiece"
             />
             </Link>
           </div>
-          <div className={styles.tabs}>
+          <div className={navStyles.tabs}>
             <Link href="/about">About</Link>
             <Link href="/projects">Projects</Link>
             <Link href="/technologies">Technologies</Link>
@@ -53,10 +53,10 @@ const Navbar = ({ isHomepage }) => {
           initial="hidden"
           animate="visible"
           variants={navVariants}
-          className={styles.navcontainer}
+          className={navStyles.navcontainer}
         >
           <div style={{ height: "30px" }}></div>
-          <div className={styles.tabs}>
+          <div className={navStyles.tabs}>
             <Link href="/about">About</Link>
             <Link href="/projects">Projects</Link>
             <Link href="/technologies">Technologies</Link>

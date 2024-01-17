@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from "../styles/TimeLine.module.css";
+import elementStyles from "../styles/Timeline.module.css";
 
 const TimelineElement = ({title, description}) => {
   return (
-    <div className={styles.card}>
-        <div className={styles.info}>
-          <h3 className={styles.title}>{title}</h3>
-          <p className={styles.description}>{description}</p>
+    <div className={elementStyles.card}>
+        <div className={elementStyles.info}>
+          <h3 className={elementStyles.title}>{title}</h3>
+          <p className={elementStyles.description}>{description}</p>
         </div>
       </div>
   )

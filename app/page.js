@@ -6,7 +6,7 @@ import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 import Experience from "./components/Experience"
 import Education from "./components/Education"
-import { techList } from "@/techList"
+import { techList1 } from "techList"
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <Introduction />
       <About />
       <Projects />
-      <Technologies techList={techList}/>
+      <Technologies techList={techList1}/>
       <Experience />
       <Education />
     </div>

@@ -1,9 +1,8 @@
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import styles from "../styles/ProjectCarousel.module.css";
+import carouselStyles from "../styles/ProjectCarousel.module.css";
 import RecursiveTimeout from "./recursiveTimeout";
-import Link from "next/link";
 
 const AUTOPLAY_INTERVAL = 4000;
 
@@ -12,7 +11,7 @@ const fadeInVariant = {
   visible: { opacity: 1, transition: { duration: 1.5, delay: 2.5 } }, // Adjust the duration as needed
 };
 
-const ProjectCarousel = ({ text, images }) => {
+const ProjectCarousel = ({ images }) => {
   const [emblaRef, embla] = useEmblaCarousel({
     align: "start",
     loop: true,
@@ -88,24 +87,24 @@ const ProjectCarousel = ({ text, images }) => {
       initial="hidden"
       animate="visible"
       variants={fadeInVariant}
-      className={styles.mainpage}
+      className={carouselStyles.mainpage}
     >
-      <div className={styles.bodycontainer}>
-        <div className={styles.carousel}>
-          <div className={styles.embla} ref={emblaRef}>
-            <div className={styles.embla__container}>
-              {images.map((image) => (
+      <div className={carouselStyles.bodycontainer}>
+        <div className={carouselStyles.carousel}>
+          <div className={carouselStyles.embla} ref={emblaRef}>
+            <div className={carouselStyles.embla__container}>
+              {images.map((image, index) => (
                 <motion.div
-                  key={image.id}
-                  className={styles.slide}
+                  key={index}
+                  className={carouselStyles.slide}
                   onClick={() => openLightbox(image)}
                   initial="hidden"
                   animate="visible"
                   variants={fadeInVariant}
                 >
-                  <div className={styles.slideContent}>
+                  <div className={carouselStyles.slideContent}>
                     <motion.img
-                      className={styles.image}
+                      className={carouselStyles.image}
                       src={image}
                       initial="hidden"
                       animate="visible"
@@ -115,11 +114,11 @@ const ProjectCarousel = ({ text, images }) => {
                 </motion.div>
               ))}
             </div>
-            <div className={styles.dotcontainer}>
-              <button className={styles.arrowLeft} onClick={scrollPrev}>
+            <div className={carouselStyles.dotcontainer}>
+              <button className={carouselStyles.arrowLeft} onClick={scrollPrev}>
                 &lt;
               </button>
-              <button className={styles.arrowRight} onClick={scrollNext}>
+              <button className={carouselStyles.arrowRight} onClick={scrollNext}>
                 &gt;
               </button>
             </div>
@@ -129,16 +128,16 @@ const ProjectCarousel = ({ text, images }) => {
       <AnimatePresence>
         {lightboxOpen && (
           <motion.div
-            className={styles.lightbox}
+            className={carouselStyles.lightbox}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <button className={styles.closeButton} onClick={closeLightbox}>
+            <button className={carouselStyles.closeButton} onClick={closeLightbox}>
               &times;
             </button>
             <motion.img
-              className={styles.lightboxImage}
+              className={carouselStyles.lightboxImage}
               src={selectedImage}
               alt=""
               initial={{ opacity: 0 }}

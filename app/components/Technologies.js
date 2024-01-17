@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import TechCard from "./TechCard";
-import { techList1 } from "@/techList";
-import styles from "../styles/TechnologiesHomepage.module.css";
+import { techList1 } from "techList";
+import techStyles from "../styles/TechnologiesHomepage.module.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -44,15 +44,15 @@ const Technologies = () => {
 
   return (
     <>
-      <div className={styles.technologies} ref={techRef} style={{ opacity: 0 }}>
-        <div className={styles.quotecontainer}>
-          <h2 className={styles.techTitle}>Technologies</h2>
-          <p className={styles.quote}>
+      <div className={techStyles.technologies} ref={techRef} style={{ opacity: 0 }}>
+        <div className={techStyles.quotecontainer}>
+          <h2 className={techStyles.techTitle}>Technologies</h2>
+          <p className={techStyles.quote}>
             "I believe it's important to have exposure to a wide range of
             technologies and frameworks; but double down on a select few.
             Fundamentals are key."
           </p>
-          <div className={styles.link}>
+          <div className={techStyles.link}>
             <Link href="/technologies">Read about technologies here...</Link>
           </div>
         </div>
@@ -61,10 +61,10 @@ const Technologies = () => {
       <div
         ref={stackRef}
         style={{ opacity: 0, transform: "translateX(100%)" }}
-        className={styles.fullstackcontainer}
+        className={techStyles.fullstackcontainer}
       >
         <img
-          className={styles.fullstack}
+          className={techStyles.fullstack}
           src="/fullstack.png"
           alt="examples of full-stack technologies"
         />

@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import styles from "../styles/RightTimelinePhotos.module.css";
+import rightStyles from "../styles/RightTimelinePhotos.module.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -27,41 +27,41 @@ const RightTimelinePhotos = ({openModel}) => {
     <div
       ref={photosRef}
       style={{ opacity: 0 }}
-      className={styles.timelinePhotos}
+      className={rightStyles.timelinePhotos}
     >
-      <div className={styles.photoContainer} onClick={() => openModel("me.jpg")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("me.jpg")}>
         {/*left */}
         <img src="me.jpg" alt="Me" />
       </div>
-      <div className={styles.photoContainer} onClick={() => openModel("costa.jpg")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("costa.jpg")}>
         {/*right */}
         <img src="costa.jpg" alt="Costa Rica" />
       </div>
-      <div className={styles.photoContainer} onClick={() => openModel("lab.jpg")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("lab.jpg")}>
         {/*left */}
         <img src="lab.jpg" alt="Laboratory" />
       </div>
-      <div className={styles.photoContainer} onClick={() => openModel("indosurf.jpg")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("indosurf.jpg")}>
         {/*right */}
         <img src="indosurf.jpg" alt="Lakey Peak Sumbawa" />
       </div>
-      <div className={styles.photoContainer} onClick={() => openModel("newzealand.jpg")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("newzealand.jpg")}>
         {/*left */}
         <img src="newzealand.jpg" alt="New Zealand" />
       </div>
-      <div className={styles.photoContainer} onClick={() => openModel("douglas.jpg")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("douglas.jpg")}>
         {/*right */}
         <img src="douglas.jpg" alt="Douglas Pharmaceuticals" />
       </div>
-      <div className={styles.photoContainer} onClick={() => openModel("aut.png")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("aut.png")}>
         {/*left */}
         <img src="aut.png" alt="AUT" />
       </div>
-      <div className={styles.photoContainer} onClick={() => openModel("graduation.jpeg")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("graduation.jpeg")}>
         {/*right */}
         <img src="graduation.jpeg" alt="Graduation" />
       </div>
-      <div className={styles.photoContainer} onClick={() => openModel("code.jpg")}>
+      <div className={rightStyles.photoContainer} onClick={() => openModel("code.jpg")}>
         {/*left */}
         <img src="code.jpg" alt="Computer Code" />
       </div>

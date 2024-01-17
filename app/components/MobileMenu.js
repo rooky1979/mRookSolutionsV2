@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import styles from "../styles/Navbar.module.css";
+import mobileStyles from "../styles/Navbar.module.css";
 
 const MobileMenu = ({ isOpen }) => {
   const variants = {
@@ -15,26 +15,26 @@ const MobileMenu = ({ isOpen }) => {
       initial="closed"
       animate={isOpen ? "open" : "closed"}
       exit="closed"
-      className={styles.mobilemenu}
+      className={mobileStyles.mobilemenu}
     >
       <img
-        className={styles.logo}
+        className={mobileStyles.logo}
         src="/flippedlogo3.png"
         alt="rook bird on a rook chesspiece"
       />
-      <Link className={styles.links} href="/about">
+      <Link className={mobileStyles.links} href="/about">
         About
       </Link>
-      <Link className={styles.links} href="/projects">
+      <Link className={mobileStyles.links} href="/projects">
         Projects
       </Link>
-      <Link className={styles.links} href="/technologies">
+      <Link className={mobileStyles.links} href="/technologies">
         Technologies
       </Link>
-      <Link className={styles.links} href="/experience">
+      <Link className={mobileStyles.links} href="/experience">
         Experience
       </Link>
-      <Link className={styles.links} href="/education">
+      <Link className={mobileStyles.links} href="/education">
         Education
       </Link>
     </motion.div>

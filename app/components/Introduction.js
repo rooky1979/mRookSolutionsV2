@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/IntroductionHome.module.css";
+import introStyles from "../styles/IntroductionHome.module.css";
 import { motion } from "framer-motion";
 
 const Introduction = () => {
@@ -66,9 +66,9 @@ const Introduction = () => {
 
   return (
     <>
-      <div className={styles.introcontainer}>
+      <div className={introStyles.introcontainer}>
         <motion.div
-          className={styles.logo}
+          className={introStyles.logo}
           initial="hidden"
           animate="visible"
           variants={logoVariants}
@@ -76,28 +76,28 @@ const Introduction = () => {
           <img src="/mainlogo.png" alt="Rook bird on a Rook Chesspiece" />
         </motion.div>
         <motion.div
-          className={styles.paragraph}
+          className={introStyles.paragraph}
           initial="hidden"
           animate="visible"
           variants={textContainerVariants}
         >
-          <motion.p className={styles.heading1} variants={textVariant1}>
+          <motion.p className={introStyles.heading1} variants={textVariant1}>
             A Journey of a thousand miles
           </motion.p>
-          <motion.p className={styles.heading2} variants={textVariant2}>
+          <motion.p className={introStyles.heading2} variants={textVariant2}>
             begins with a single step...
           </motion.p>
         </motion.div>
       </div>
       <motion.div
-        className={styles.intro}
+        className={introStyles.intro}
         initial="hidden"
         animate="visible"
         variants={introContainerVariants}
       >
-        <div className={styles.introtext}>
+        <div className={introStyles.introtext}>
           <p>
-            Welcome to <span className={styles.boldspan}>M.Rook Solutions</span>
+            Welcome to <span className={introStyles.boldspan}>M.Rook Solutions</span>
             . This isn't just a website; it's an interactive journey through my
             experiences and abilities. Get to know who I am while exploring my
             skills, projects, and more.{" "}
@@ -106,11 +106,11 @@ const Introduction = () => {
           <p>
             If you need help with a technical project or seek advice on web
             development, feel free to reach out at{" "}
-            <span className={styles.email}>mrook1979@hotmail.com</span>. Let's
+            <span className={introStyles.email}>mrook1979@hotmail.com</span>. Let's
             embark on this adventure together!
           </p>
         </div>
-        <div className={styles.officepic}>
+        <div className={introStyles.officepic}>
           <img src="/homepage.png" alt="Office setup" />
         </div>
       </motion.div>
