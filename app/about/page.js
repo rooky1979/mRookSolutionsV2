@@ -39,7 +39,7 @@ export default function about() {
             looked back. To switch careers at 39 was one of the scariest things
             I have ever done. The fear of the unknown was intense. Self doubt
             and imposter syndrome were rampant. "What if I fail?". But I seem to
-            operate under pressure best and when I want something I tend to go
+            operate under pressure best and when I want something, I go
             for it. All or nothing.
           </p>
           <br />
@@ -48,7 +48,7 @@ export default function about() {
             interviews/rejections later, I landed my first job at Deloitte on
             the learning track as a Consultant/Specialist in SAP ABAP
             development and on course to become a full-stack developer (SAP
-            Fiori, CAP, RAP, CPI etc) where I currently reside and building
+            Fiori, CAP, RAP, CPI, etc.) where I currently reside and building
             little personal projects in my own time to keep learning new skills.
           </p>
           <br />
