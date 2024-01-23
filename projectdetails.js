@@ -2,6 +2,7 @@ export const projectdetails = [
     {
       id: 1,
       title: 'M Rook Solutions V2.0',
+      tiletitle: 'M Rook Solutions V2.0',
       date: 'November 2023 - January 2024',
       tagline: 'A revamp of the interactive CV M Rook Solutions Website.',
       languages: 'NextJS, React components, GSAP/ScrollTrigger CSS, Chat-GPT, Vercel',
@@ -15,6 +16,7 @@ export const projectdetails = [
     {
       id: 2,
       title: 'Medical Assistant with Chat-GPT',
+      tiletitle: 'A.I. Medical Assistant',
       date: 'October 2023',
       tagline: 'An experiment to find out how easy it is to incorporate Chat-GPT into an application.',
       languages: 'NextJS, CSS, Chat-GPT 3.5 API',
@@ -29,6 +31,7 @@ export const projectdetails = [
     {
       id: 3,
       title: 'Various SAPUI5 Fiori and UI5 Web Components projects.',
+      tiletitle: 'SAPUI5 and Fiori',
       date: 'August 2023  - October 2023',
       tagline: 'Various learning projects with SAP Fiori languages and frameworks.',
       languages: 'SAP BTP, Fiori, Fiori Elements, SAPUI5, UI5 Web Components for React',
@@ -39,7 +42,8 @@ export const projectdetails = [
     },
     {
       id: 4,
-      title: 'The Ink lab',
+      title: 'The Ink Lab',
+      tiletitle: 'The Ink Lab',
       date: 'August 2023  - October 2023',
       tagline: 'A website for a tattoo artist.',
       languages: 'React components, NextJS, CSS, Vercel',
@@ -53,6 +57,7 @@ export const projectdetails = [
     {
       id: 5,
       title: 'HIGH NOON GAMBLE Web Application VERSION 2.',
+      tiletitle: 'HNG V2.0',
       date: 'February 2023 - March 2023',
       tagline: 'An overhaul of the HIGH NOON GAMBLE web app.',
       languages: 'Node.js, React, NextJS, CSS, Vercel',
@@ -66,6 +71,7 @@ export const projectdetails = [
     {
       id: 6,
       title: 'SAP UI5 HIGH NOON GAMBLE Web Application VERSION 2.',
+      tiletitle: 'HNG V2.0 with SAPUI5',
       date: 'January 2023 - February 2023',
       tagline: 'An overhaul of the HIGH NOON GAMBLE web app using SAP UI5.',
       languages: 'SAP UI5, CSS, MVC pattern',
@@ -79,6 +85,7 @@ export const projectdetails = [
     {
       id: 7,
       title: 'HIGH NOON GAMBLE Web Application VERSION 1.',
+      tiletitle: 'HNG V1.0',
       date: 'October 2021 - November 2021',
       tagline: 'A web application with tools for a 12 step support group.',
       languages: 'Node.js, React, NextJS, CSS, Vercel',
@@ -91,26 +98,28 @@ export const projectdetails = [
     },
     {
       id: 8,
-      title: 'Movie discussion forum V1.0.',
+      title: 'Movie discussion forum.',  
+      tiletitle: 'Movie Forum',  
       date: 'July 2021 - Sept 2021',
       tagline: 'A movie forum with JWT authentication and more.',
       languages: 'MongoDB, Express.js, Node.js, React, Redux, Sass, Heroku',
       description: 'After completing a MERN course, I wanted to cement the full-stack concepts and create a basic movie discussion forum.',
       description1: 'The application uses JWT authentication when registering a new user and they can create a profile. When the user enters their favourite films, a request is made to the OMDB API and retrieves the movie poster, title, release year and director and displays it. The user can see the other members profiles and can post in the discussions page where each post can be commented on, liked/disliked and posts or comments deleted if the logged in user created the posts/comments.',
-      description2: 'The point of this project was not to create something that was full featured, but to understand the concepts of how full-stack development works. However for version 2.0, I will add the ability to upload profile pictures, create email verification to confirm valid email addresses and display the user\'s favourite actors and directors by making a request to another API. The app is deployed on Heroku and unfortunately as time has moved on, it\'s no longer',
+      description2: 'The point of this project was not to create something that was full featured, but to understand the concepts of how full-stack development works. However for version 2.0, I will add the ability to upload profile pictures, create email verification to confirm valid email addresses and display the user\'s favourite actors and directors by making a request to another API. The app is deployed on Heroku and unfortunately as time has moved on, it\'s out of date and no longer active.',
       image: '/stalls.png',
       githubLink: 'https://github.com/rooky1979/movie_forum',
       tileheight: '1',
     },
     {
       id: 9,
-      title: 'The first version of this site V1.0.',
+      title: 'M Rook Solutions V1.0.',
+      tiletitle: 'M Rook Solutions V1.0.',
       date: 'June 2021 - July 2021',
       tagline: 'A \'visual resume\'.',
       languages: 'Next.JS, CSS, React',
       description: 'Once I had completed university, after a week of relaxing, I couldn\'t wait to start learning again. I decided to create a website that showcased who I am and my projects and experiences. I looked at many different frameworks to use. I was tempted to stick with what I had been taught in university with HTML and PHP, but decided to challenge myself and learn something new. As it was going to be a static site, I looked at Gatsby and Next.JS among others and decided to use Next.JS as it seemed to be a popular choice among developers.',
       description1: 'After watching some tutorials and reading articles on Next.JS, building the pages hasn\'t been as issue, but the styling and placement of containers etc, has been. Design I have discovered, is a learning need that I have to improve on and gain more understanding of the CSS parameters.',
-      description2: 'I decided to try a styling framework and after doing some research on SASS, Tailwind and Bootstrap, I decided on learning Tailwind. I have found that with Tailwind after taking some time to understand it that it feels like it has a lot more control. I also added simple transistions to the banner and pages using Framer Motion',
+      description2: 'I decided to try a styling framework and after doing some research on SASS, Tailwind and Bootstrap, I decided on learning Tailwind. I have found that with Tailwind after taking some time to understand it that it feels like it has a lot more control. I also added simple transistions to the banner and pages using Framer Motion. Version 1 can be found here: https://mrooksolutions.vercel.app/',
       image: '/mrooksolns.png',
       githubLink: 'https://github.com/rooky1979/m_rook_solutions',
       tileheight: '1',
@@ -118,6 +127,7 @@ export const projectdetails = [
     {
       id: 10,
       date: 'July 2020 - June 2021',
+      tiletitle: 'NZ Nutrition Foundation',
       title: 'A cooking application aimed at 14-17 year old people.',
       languages: 'Flutter, Dart, Google Firebase',
       description: 'This was for the R&D project of the final year at university. Our brief was to put forward a project proposal for a real-life client and develop the product proposed. We had to design and build a prototype application for the NZ Nutrition Foundation for a 14-17 year old demographic so that they could build on it with future iterations until ready for release.',
@@ -133,7 +143,8 @@ export const projectdetails = [
     },
     {
       id: 11,
-      title: 'Taxi booking website.',
+      title: 'Taxi booking Website.',
+      tiletitle: 'Taxi Booking Website.',
       date: 'April - May 2021',
       tagline: 'A basic website to book and assign taxis.',
       languages: 'HTML5, CSS, PHP, Javascript, SQL',
@@ -149,7 +160,8 @@ export const projectdetails = [
     },
     {
       id: 12,
-      title: 'Virtual pet',
+      title: 'Virtual Pet',
+      tiletitle: 'Virtual Pet',
       date: 'May - June 2019',
       tagline: "A 90's inspired virtual pet created from scratch....",
       languages: 'Java, Derby DB',
@@ -164,7 +176,8 @@ export const projectdetails = [
     },
     {
       id: 13,
-      title: 'Cinema booking system',
+      title: 'Cinema Booking System',
+      tiletitle: 'Cinema Booking System',
       date: 'September - October 2018',
       tagline: 'A booking system to book seats at a cinema.',
       languages: 'Java',

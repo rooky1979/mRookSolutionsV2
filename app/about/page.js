@@ -2,17 +2,35 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import aboutStyles from "../styles/About.module.css";
+import { motion } from "framer-motion";
 
 export default function about() {
   return (
     <>
       <Navbar isHomepage={true} />
-      <h2 className={aboutStyles.title}>About</h2>
+      <motion.h2
+        className={aboutStyles.title}
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2.0 }}
+      >
+        About
+      </motion.h2>
       <div className={aboutStyles.aboutcontainer}>
-      <div className={aboutStyles.image}>
+        <motion.div
+          className={aboutStyles.image}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5, delay: 0.6 }}
+        >
           <img src="/me.jpeg" alt="Me at Stonehenge" />
-        </div>
-        <div className={aboutStyles.textcontainer}>
+        </motion.div>
+        <motion.div
+          className={aboutStyles.textcontainer}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5, delay: 0.6 }}
+        >
           <p className={aboutStyles.text}>
             I spent 17 years in the world of Analytical Chemistry and various
             pharmaceutical companies ranging from OTC medicines to supplements,
@@ -39,8 +57,8 @@ export default function about() {
             looked back. To switch careers at 39 was one of the scariest things
             I have ever done. The fear of the unknown was intense. Self doubt
             and imposter syndrome were rampant. "What if I fail?". But I seem to
-            operate under pressure best and when I want something, I go
-            for it. All or nothing.
+            operate under pressure best and when I want something, I go for it.
+            All or nothing.
           </p>
           <br />
           <p className={aboutStyles.text}>
@@ -81,10 +99,15 @@ export default function about() {
             down to business, I am a man of sheer will and determination. I get
             things done. I say what I'll do and do what I say.
           </p>
-        </div>
-        <div className={aboutStyles.image}>
+        </motion.div>
+        <motion.div
+          className={aboutStyles.image}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5, delay: 0.6 }}
+        >
           <img src="/family.jpeg" alt="Family at Disney" />
-        </div>
+        </motion.div>
       </div>
     </>
   );
