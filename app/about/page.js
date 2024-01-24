@@ -56,7 +56,7 @@ export default function about() {
             Sciences degree majoring in Software Development, and I have never
             looked back. To switch careers at 39 was one of the scariest things
             I have ever done. The fear of the unknown was intense. Self doubt
-            and imposter syndrome were rampant. "What if I fail?". But I seem to
+            and imposter syndrome were rampant. "What if I fail?" But I seem to
             operate under pressure best and when I want something, I go for it.
             All or nothing.
           </p>
@@ -83,13 +83,13 @@ export default function about() {
           <p className={aboutStyles.text}>
             I live my life by some simple values that I believe are paramount in
             both professional and personal life. Honesty, loyalty, integrity,
-            accountability, and being of service. Living by these values
-            generates trust which is the foundation of any relationship both
-            business and personal.
+            accountability, and being of service. Living by these values earns
+            trust which is the foundation of any relationship both business and
+            personal.
           </p>
           <br />
           <p className={aboutStyles.text}>
-            I laugh, I joke. I stay child-like, but not childish. I surf, I
+            I laugh, I joke. I stay child-like with curiousity and wonder, but not childish. I surf, I
             skate, I play pinball and retro games. I love cinema and spending
             time with family and friends. I love life.
           </p>

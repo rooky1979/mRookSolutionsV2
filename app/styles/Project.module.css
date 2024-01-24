@@ -7,6 +7,15 @@
     align-items: center;
     display: flex;
 }
+.projecttitle {
+    font-size: 80px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .projectsContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -46,5 +55,15 @@
   }
   .projectTile:hover .projectOverlay {
     opacity: 0;
+  }
+  @media (max-width: 902px) {
+    .projecttitle {
+      font-size: 60px;
+    }
+  }
+  @media (max-width: 686px) {
+    .projecttitle {
+      font-size: 30px;
+    }
   }
   
