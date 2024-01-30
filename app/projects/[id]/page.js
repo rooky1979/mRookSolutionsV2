@@ -5,6 +5,8 @@ import { projectdetails } from "projectdetails";
 import projectstyles from "../../styles/Project.module.css";
 import { motion } from "framer-motion";
 
+/* add in a link to the github repo and a go back button */
+
 export default function Project({ params }) {
   const [projectData, setprojectData] = useState(null);
 
