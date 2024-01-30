@@ -1,4 +1,30 @@
-.title {
+/* individual project page */
+.projectContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.projectImageContainer {
+  margin-top: 20px;
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projectDescription {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* projects page*/
+ .title {
     font-size: 80px;
     font-weight: 200;
     margin-top: 20px;
