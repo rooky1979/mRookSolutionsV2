@@ -92,7 +92,7 @@ export const projectdetails = [
       languages: 'Node.js, React, NextJS, CSS, Vercel',
       description: 'Friends in Las Vegas, NV approached me for help with a web application for their hosts of the meeting to use.',
       description1: 'Essentially, the group required to have an all-in-one place for hosts/co-hosts of an online 12-step meeting that contained all the readings, anything required to be posted in chat, and all the tools that are required for the meeting to run. When a person is asked to share, they pick a tool, and pick a number and they are asked to share on that reading or topic.',
-      description2: 'The group required this application fast during the pandemic due to lack of people having access to tools, so this web app was built fast so they had that access with the thought in mind to create a version 2.0 in order to tidy it up, include more features and overhaul the design. The app is deployed on Vercel and can be found at https://highnoongamble.vercel.app/',
+      description2: 'The group required this application fast during the pandemic due to lack of people having access to tools, so this web app was built fast so they had that access with the thought in mind to create a version 2.0 in order to tidy it up, include more features and overhaul the design. The app is deployed on Vercel and can be found at https://highnoongamblev1.vercel.app/',
       image: '/hng.png',
       githubLink: 'https://github.com/rooky1979/high_noon_gamble',
       tileheight: '1',
