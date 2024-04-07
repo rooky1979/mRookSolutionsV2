@@ -8,7 +8,7 @@ const AUTOPLAY_INTERVAL = 4000;
 
 const fadeInVariant = {
   hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { duration: 1.5, delay: 2.5 } }, // Adjust the duration as needed
+  visible: { opacity: 1, transition: { duration: 3.0, delay: 2.5 } }, // Adjust the duration as needed
 };
 
 const ProjectCarousel = ({ images }) => {

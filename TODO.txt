@@ -1,0 +1,27 @@
+Check each page and see what needs fixing
+
+Mobile Menu
+
+- Coming across too far on the mobile/tablet 
+
+Landing Page 
+
+- Error in Dev tools not program breaking
+
+About Page 
+
+Projects Page 
+
+
+
+Technologies page 
+
+- Everything
+
+Experience Page 
+
+- Everything
+
+Education page 
+
+- Everything

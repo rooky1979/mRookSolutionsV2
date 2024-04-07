@@ -17,6 +17,7 @@ const Projects = () => {
       gsap.to(projectsRef.current, {
         opacity: 1,
         rotate: 360,
+        duration: 1,
         scrollTrigger: {
           trigger: projectsRef.current,
           start: "top 80%",
