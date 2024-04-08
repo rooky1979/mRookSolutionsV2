@@ -1,8 +1,7 @@
 Check each page and see what needs fixing
 
 Mobile Menu
-
-- Coming across too far on the mobile/tablet 
+OKAY
 
 Landing Page 
 
@@ -10,8 +9,17 @@ Landing Page
 
 About Page 
 
+- Make the pictures clickable to enlarge
+
+- there's a lot of white space in there. Maybe look at adding something else
+
 Projects Page 
 
+- Not keen on the titles not being one line and centered
+- Back button on the [id] page
+- Make the picture enlargable
+- Make the link clickable
+- Add the tagline, date, languages somewhere?
 
 
 Technologies page 

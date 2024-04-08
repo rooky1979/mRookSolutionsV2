@@ -37,7 +37,7 @@
     font-size: 21px;
     font-weight: 300;
 }
-@media (max-width: 1235px) {
+@media (max-width: 1024px) {
     .aboutcontainer {
         flex-direction: column;
         margin: 0;

@@ -41,8 +41,8 @@ export default function about() {
           </p>
           <br />
           <p className={aboutStyles.text}>
-            In 2014 during a big project of installing, upgrading and qualifying
-            HPLCs and their PCs I wished I had gone into IT instead of science,
+            In 2014 during a big project of installing, upgrading, and qualifying
+            HPLCs, and their PCs I wished I had gone into IT instead of science,
             but telling myself not to do anything about it with things like "I'm
             too old", or "I can't afford to go to University, I have a mortgage
             to pay". I recognise now exactly those "justifications" for what
@@ -50,7 +50,7 @@ export default function about() {
           </p>
           <br />
           <p className={aboutStyles.text}>
-            In 2017 after a personal experience came to a head, I decided to go
+            In 2017 after some self-reflection came to pass, I decided to go
             for it. No more self-justifications, rationalisations, and excuses.
             I enrolled at AUT full-time in a BSc Computer and Information
             Sciences degree majoring in Software Development, and I have never
@@ -58,7 +58,7 @@ export default function about() {
             I have ever done. The fear of the unknown was intense. Self doubt
             and imposter syndrome were rampant. "What if I fail?" But I seem to
             operate under pressure best and when I want something, I go for it.
-            All or nothing.
+            Hey, if I'm going to walk on thin ice, I may as well tap dance right?
           </p>
           <br />
           <p className={aboutStyles.text}>
@@ -67,7 +67,7 @@ export default function about() {
             the learning track as a Consultant/Specialist in SAP ABAP
             development and on course to become a full-stack developer (SAP
             Fiori, CAP, RAP, CPI, etc.) where I currently reside and building
-            little personal projects in my own time to keep learning new skills.
+            little personal projects in my own time to keep learning new skills and stay relevant.
           </p>
           <br />
           <p className={aboutStyles.text}>
