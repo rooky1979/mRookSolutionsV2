@@ -27,7 +27,7 @@
   content: "";
   position: absolute;
   width: 50%;
-  border: solid rgba(242, 222, 200, 0.821);
+  border: solid #c7b4d7;
 }
 
 /* Setting the border of top, bottom, left */

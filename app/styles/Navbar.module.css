@@ -38,7 +38,7 @@
 }
 .tabs a:hover,
 .tabs a.activelink {
-  color: blue;
+  color: #8800ff;
 }
 .mobilemenu {
   position: fixed;

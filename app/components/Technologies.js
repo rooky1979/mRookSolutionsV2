@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import TechCard from "./TechCard";
-import { techList1 } from "techList";
+import { techList1 } from "/techList";
 import techStyles from "../styles/TechnologiesHomepage.module.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

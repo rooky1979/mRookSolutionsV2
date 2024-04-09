@@ -82,10 +82,10 @@ const Introduction = () => {
           variants={textContainerVariants}
         >
           <motion.p className={introStyles.heading1} variants={textVariant1}>
-            A Journey of a thousand miles
+          Quiet in its corner on the board,
           </motion.p>
           <motion.p className={introStyles.heading2} variants={textVariant2}>
-            begins with a single step...
+          the Rook emerges, adapts, conquers...
           </motion.p>
         </motion.div>
       </div>

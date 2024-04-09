@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar";
 import { projectdetails } from "projectdetails";
 import projectstyles from "../../styles/Project.module.css";
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 /* add in a link to the github repo and a go back button */
 
@@ -66,6 +67,8 @@ export default function Project({ params }) {
         <motion.p className={projectstyles.projectDescription}>
           {projectData?.description3}
         </motion.p>
+        <Link href="/projects">
+        <motion.button className={projectstyles.backButton}>Back to Projects</motion.button></Link>
       </motion.div>
     </>
   );

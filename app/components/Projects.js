@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import ProjectCarousel from "./ProjectCarousel";
 import projectshomeStyles from "../styles/ProjectsHomepage.module.css";
 import Link from "next/link";
-import { projects } from "techList";
+import { projects } from "/techList";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

@@ -6,7 +6,7 @@ import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 import Experience from "./components/Experience"
 import Education from "./components/Education"
-import { techList1 } from "techList"
+import { techList1 } from "/techList"
 
 export default function Home() {
   return (

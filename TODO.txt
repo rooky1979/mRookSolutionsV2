@@ -6,6 +6,7 @@ OKAY
 Landing Page 
 
 - Error in Dev tools, not program breaking
+- In mobile views, the scroll triggers aren't as good as full screen
 
 About Page 
 
