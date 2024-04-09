@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Navbar from "../../components/Navbar";
-import { projectdetails } from "projectdetails";
+import { projectdetails } from "/projectdetails";
 import projectstyles from "../../styles/Project.module.css";
 import { motion } from "framer-motion";
 import Link from 'next/link';
@@ -43,7 +43,7 @@ export default function Project({ params }) {
             src={projectData?.image}
             alt={projectData?.title}
             className={projectstyles.projectImage}
-            initial={{ opacity: 0, y: -50 }}
+            initial={{ opacity: 0, y:-25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.0 }}
           />

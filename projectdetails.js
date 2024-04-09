@@ -19,7 +19,7 @@ export const projectdetails = [
       title: 'Medical Assistant with Chat-GPT',
       tiletitle: 'A.I. Medical Assistant',
       date: 'October 2023',
-      tagline: 'An experiment to find out how easy it is to incorporate Chat-GPT into an application.',
+      tagline: 'An investigation to find out how easy it is to incorporate Chat-GPT into an application.',
       languages: 'NextJS, CSS, Chat-GPT 3.5 API',
       description: 'Being involved in an Generative-AI initiative, I was curious just how hard it was to utilise the Chat-GPT API for an application. ',
       description1: 'I thought of a simple medical assistant where a user could enter age, gender, location, applicable medical history, and symptoms and the GPT model could come up with some sort of possible diagnosis. The location was added as I engineered the response to contain local health information for that area.',
@@ -138,7 +138,7 @@ export const projectdetails = [
       id: 10,
       date: 'July 2020 - June 2021',
       tiletitle: 'NZ Nutrition Foundation',
-      title: 'A cooking application aimed at 14-17 year old people.',
+      tagline: 'A cooking application aimed at 14-17 year old people.',
       languages: 'Flutter, Dart, Google Firebase',
       description: 'This was for the R&D project of the final year at university. Our brief was to put forward a project proposal for a real-life client and develop the product proposed. We had to design and build a prototype application for the NZ Nutrition Foundation for a 14-17 year old demographic so that they could build on it with future iterations until ready for release.',
       description1:

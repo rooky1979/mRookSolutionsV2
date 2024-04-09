@@ -16,11 +16,9 @@ About Page
 
 Projects Page 
 
-- Not keen on the titles not being one line and centered
-- Back button on the [id] page
 - Make the picture enlargable
 - Make the link clickable - use an embedded if statement that if link is empty don't add else add link. Will need to add to the projectdetails.js file
-- Add the tagline, date, languages somewhere?
+- Have a look at the loading animations
 
 
 Technologies page 

@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
-import { projectdetails } from "projectdetails";
+import { projectdetails } from "/projectdetails";
 import projectstyles from "../styles/Project.module.css";
 import { motion } from "framer-motion";
 

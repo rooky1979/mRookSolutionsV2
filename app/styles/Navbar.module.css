@@ -51,7 +51,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #aabcc5;
+  background: #c685ff;
 }
 .mobilemenu a {
   padding: 15px 0px;
@@ -61,7 +61,7 @@
   text-decoration: none;
 }
 .mobilemenu a:hover {
-  color: blue;
+  color: #68cdff;
 }
 .logo {
   width: auto;
@@ -72,7 +72,7 @@
 }
 .burgerbar {
   width: 30px;
-  background-color: black;
+  background-color: #c685ff;
   height: 4px;
   display: none;
 }
