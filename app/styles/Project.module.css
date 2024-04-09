@@ -1,14 +1,12 @@
 /* individual project page */
 .projectContainer {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
-
 .projectImageContainer {
   margin-top: 20px;
 }
-
 .projectImage {
   width: 100%;
   height: auto;
@@ -16,10 +14,10 @@
   object-fit: cover;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .projectDescription {
   margin-top: 20px;
   font-size: 18px;
+  font-weight: 300;
   line-height: 1.5;
 }
 
@@ -34,12 +32,43 @@
     display: flex;
 }
 .projecttitle {
-    font-size: 80px;
-    font-weight: 200;
+    font-size: 75px;
+    font-weight: 300;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
+    display: flex;
+}
+.projecttagline {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: blue;
+}
+.projectdate {
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.projectlanguages {
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
     display: flex;
 }
 .projectsContainer {
@@ -86,10 +115,36 @@
     .projecttitle {
       font-size: 60px;
     }
+    .projecttagline {
+      font-size: 24px;
+  }
   }
   @media (max-width: 686px) {
     .projecttitle {
-      font-size: 30px;
+      font-size: 40px;
     }
+    .projecttagline {
+      font-size: 18px;
+  }
+  }
+  @media (max-width: 523px) {
+    .projecttagline {
+      font-size: 14px;
+  }
+  }
+  @media (max-width: 488px) {
+    .projecttitle {
+      font-size: 30px;
+  }
+  }
+  @media (max-width: 413px) {
+    .projecttagline {
+      font-size: 12px;
+  }
+  }
+  @media (max-width: 376px) {
+    .projecttitle {
+      font-size: 25px;
+  }
   }
   

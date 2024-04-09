@@ -33,6 +33,10 @@ export default function Project({ params }) {
         <motion.h2 className={projectstyles.projecttitle}>
           {projectData?.tiletitle}
         </motion.h2>
+        <motion.h2 className={projectstyles.projecttagline}>
+          {projectData?.tagline}
+        </motion.h2>
+
         <div className={projectstyles.projectImageContainer}>
           <motion.img
             src={projectData?.image}
@@ -43,6 +47,13 @@ export default function Project({ params }) {
             transition={{ duration: 1.0 }}
           />
         </div>
+        <motion.p className={projectstyles.projectdate}>
+          <strong>Date:&nbsp;</strong>
+          {projectData?.date}
+        </motion.p>
+        <motion.p className={projectstyles.projectlanguages}>
+          <strong>Stack:&nbsp;</strong>{projectData?.languages}
+        </motion.p>
         <motion.p className={projectstyles.projectDescription}>
           {projectData?.description}
         </motion.p>
