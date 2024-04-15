@@ -1,10 +1,24 @@
 "use client";
-import React from "react";
+import React, {useState} from "react";
 import Navbar from "../components/Navbar";
 import aboutStyles from "../styles/About.module.css";
 import { motion } from "framer-motion";
+import PhotoModel from "../components/PhotoModel";
 
 export default function about() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentPhoto, setCurrentPhoto] = useState(null);
+
+  const openModel = (imageUrl) => {
+    setCurrentPhoto(imageUrl);
+    setIsModalOpen(true);
+  };
+
+  const closeModel = () => {
+    setCurrentPhoto(null);
+    setIsModalOpen(false);
+  };
+
   return (
     <>
       <Navbar isHomepage={true} />
@@ -23,7 +37,7 @@ export default function about() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 0.6 }}
         >
-          <img src="/me.jpeg" alt="Me at Stonehenge" />
+          <img src="/me.jpeg" alt="Me at Stonehenge" onClick={() => openModel("/me.jpeg")} />
         </motion.div>
         <motion.div
           className={aboutStyles.textcontainer}
@@ -106,8 +120,11 @@ export default function about() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 0.6 }}
         >
-          <img src="/family.jpeg" alt="Family at Disney" />
+          <img src="/family.jpeg" alt="Family at Disney" onClick={() => openModel("/family.jpeg")}/>
         </motion.div>
+        {isModalOpen && (
+        <PhotoModel imageUrl={currentPhoto} onClose={closeModel} />
+      )}
       </div>
     </>
   );

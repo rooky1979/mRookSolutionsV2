@@ -11,7 +11,7 @@
     z-index: 1000;
   }
   .modalContent {
-    max-width: 70%;
+    max-width: 90%;
     max-height: 700%;
     overflow: hidden;
     background: white;

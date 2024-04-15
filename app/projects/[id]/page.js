@@ -5,11 +5,14 @@ import { projectdetails } from "/projectdetails";
 import projectstyles from "../../styles/Project.module.css";
 import { motion } from "framer-motion";
 import Link from 'next/link';
+import PhotoModel from "../../components/PhotoModel";
 
 /* add in a link to the github repo and a go back button */
 
 export default function Project({ params }) {
   const [projectData, setprojectData] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentPhoto, setCurrentPhoto] = useState(null);
 
   useEffect(() => {
     const project = projectdetails.find((p) => p.id.toString() === params.id);
@@ -21,6 +24,16 @@ export default function Project({ params }) {
       console.log("Project not found");
     }
   }, [params.id]);
+
+  const openModel = (imageUrl) => {
+    setCurrentPhoto(imageUrl);
+    setIsModalOpen(true);
+  };
+
+  const closeModel = () => {
+    setCurrentPhoto(null);
+    setIsModalOpen(false);
+  };
 
   return (
     <>
@@ -40,6 +53,7 @@ export default function Project({ params }) {
 
         <div className={projectstyles.projectImageContainer}>
           <motion.img
+          onClick={() => openModel(projectData?.image)}
             src={projectData?.image}
             alt={projectData?.title}
             className={projectstyles.projectImage}
@@ -79,6 +93,9 @@ export default function Project({ params }) {
         <Link href="/projects">
         <motion.button className={projectstyles.backButton}>Back to Projects</motion.button>
         </Link>
+        {isModalOpen && (
+        <PhotoModel imageUrl={currentPhoto} onClose={closeModel} />
+      )}
       </motion.div>
     </>
   );

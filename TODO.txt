@@ -1,7 +1,7 @@
 Check each page and see what needs fixing
 
 Mobile Menu
-OKAY
+OKAY - Seems to work and sometimes not work
 
 Landing Page 
 
@@ -10,14 +10,11 @@ Landing Page
 
 About Page 
 
-- Make the pictures clickable to enlarge
-
 - there's a lot of white space in there. Maybe look at adding something else
 
 Projects Page 
 
-- Make the picture enlargable
-
+All done (I think)
 
 Technologies page 
 
