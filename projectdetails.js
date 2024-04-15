@@ -10,8 +10,9 @@ export const projectdetails = [
       description1: 'This website incorporated skills I have learned since and some new ones for this project alone.',
       description2: 'This project features a scrollable homepage with brief sections of the overall site. Animations triggered when coming into view via GSAP/ScrollTrigger was a fun learning curve and the CSS to pull this off challenging. Each of the pages in the NavBar takes the user to a detailed page of that particular section.',
       image: '/mrooksolnsv2.png',
-      githubLink: 'https://github.com/rooky1979/mrooksolutionsv2',
+      githublink: 'https://github.com/rooky1979/mrooksolutionsv2',
       tileheight: '0.5',
+      siteflag: false,
       sitelink: '',
     },
     {
@@ -26,8 +27,9 @@ export const projectdetails = [
       description2: 'I created a quick form in NextJS and the necessary fields. I didn\'t worry too much about user input validation as that wasn\'t the goal of the investigation.',
       description3: 'After reading the docs and trying to decipher how to use the API, it worked and was actually relatively easy to do. The real key was the prompt engineering when preparing the prompt to send to the GPT API. This was a quick project that was super fun to do. There is no live site to visit as the GPT token has expired and not renewed.',
       image: '/medicalassist.png',
-      githubLink: 'https://github.com/rooky1979/MedicalAssistant',
+      githublink: 'https://github.com/rooky1979/MedicalAssistant',
       tileheight: '1',
+      siteflag: false,
       sitelink: '',
     },
     {
@@ -40,8 +42,9 @@ export const projectdetails = [
       description: 'As ABAP is my first stop with work, during downtime or in-between projects, I have been upskilling in various SAP Fiori related small projects to help round out my SAP skills. Courses in Fiori Elements, CAP and RAP, and SAPUI5 Web Components for React were done and the link to Github below was really just playing with the components and what they looked like.',
       description1: 'I also created a simple SAP Chat Assistant making a call to the Chat-GPT API. I created a lexicon of SAP keywords so that if the user asked a question that wasn\'t SAP related, then it would reply that it couldn\'t answer non-SAP related questions. Good fun!',
       image: '/webcomp.png',
-      githubLink: 'https://github.com/rooky1979/SAPUI5-Web-components',
+      githublink: 'https://github.com/rooky1979/SAPUI5-Web-components',
       tileheight: '1',
+      siteflag: false,
       sitelink: '',
     },
     {
@@ -55,8 +58,9 @@ export const projectdetails = [
       description1: 'A tattoo artist friend residing in Canada allowed the use of his IP to allow a personal project to occur. This website incorporates a striking landing page with full-motion video of the artist over a loop displaying a brief outline of his process.',
       description2: 'It contains a showcasing of his portfolio and available art where embla was used to create an image carousel which was new to me. A contact form utilising Mailtrap was set up for users to send email enquiries and bookings. It has a subscriber page so that a user can subscribe to a mailing list using Mailchimp. A blog was created that can be updated via Sanity.io. This project was something to help and continue to build on JavaScript, NextJS and React component programming. Also, it was decided to use just native CSS to really get a handle on styling without any kind of framework. Take it back to basics if you will. The challenges were around creating the new features using Mailchimp/Mailtrap, using Sanity.io and getting the image carousels to work. All new things to learn and enjoyable (if not frustrating at times!).',
       image: '/inkLab.png',
-      githubLink: 'https://github.com/rooky1979/inklab',
+      githublink: 'https://github.com/rooky1979/inklab',
       tileheight: '1',
+      siteflag: true,
       sitelink: 'https://inklabtattoos.vercel.app/',
     },
     {
@@ -70,8 +74,9 @@ export const projectdetails = [
       description1: 'The web app was redesigned to incorporate a one-stop-shop dashboard for hosts/co-hosts to have easy access to anything they needed to reduce time with switching between screens. Readings were split up into their own sections as were the required elements for the meeting format. Speed and functionality were key to them, so I tried to keep it without the visual niceties of animations, etc., that would be expensive. I wanted it to look nice enough but not slowed down by sparkle and flair so it would have the speed of loading between screens. NextJS was a great framwork to choose with server-side rendering.',
       description2: 'Searching and filtering were added to the tools and also the ability to randomise each tool if the person required a random reading and a \"GodShot\" tile was introduced at their request that randomises a reading from any of the tools displaying the reading and the tool from whence it came from. This was great being able to gather their user requirements and be able to take the time to create the application they needed.',
       image: '/hngv2.png',
-      githubLink: 'https://github.com/rooky1979/highnoonNextJS',
+      githublink: 'https://github.com/rooky1979/highnoonNextJS',
       tileheight: '1',
+      siteflag: true,
       sitelink: 'https://highnoongamblev2.vercel.app/',
     },
     {
@@ -85,8 +90,9 @@ export const projectdetails = [
       description1: 'Although the elements still retained the SAP look (fields, tile shapes, etc.), I was able to override the CSS and use completely different look to make it look unique.',
       description2: 'I utilised the MVC pattern as used in SAP Fiori Freestyle and included search and filtering. It was a fantastic experience and moreso to be very impressed of how flexible SAP Fiori can be. Unfortunately, SAP UI5 cannot be deployed on platforms such as Vercel so the project had be be restarted using NextJS.',
       image: '/hngv2.png',
-      githubLink: 'https://github.com/rooky1979/highnoongambleV2.0SAPUI5',
+      githublink: 'https://github.com/rooky1979/highnoongambleV2.0SAPUI5',
       tileheight: '1',
+      siteflag: false,
       sitelink: '',
     },
     {
@@ -100,8 +106,9 @@ export const projectdetails = [
       description1: 'Essentially, the group required to have an all-in-one place for hosts/co-hosts of an online 12-step meeting, that contained all the readings, anything required to be posted in chat, and all the tools that are required for the meeting to run. When a person is asked to share, they pick a tool, and pick a number and they are asked to share on that reading or topic.',
       description2: 'The group required this application with a quick turnaround during the pandemic due to people having a lack access to the tools. This limited the amount of people that could do service to host the meeting or co-host. So this web app was built quick so they had that access with the thought in mind to create a version 2.0 in order to tidy it up, include more features, and overhaul the design.',
       image: '/hng.png',
-      githubLink: 'https://github.com/rooky1979/high_noon_gamble',
+      githublink: 'https://github.com/rooky1979/high_noon_gamble',
       tileheight: '1',
+      siteflag: true,
       sitelink: 'https://highnoongamblev1.vercel.app/',
     },
     {
@@ -115,8 +122,9 @@ export const projectdetails = [
       description1: 'The application uses JWT authentication when registering a new user and they can create a profile. When the user enters their favourite films, a request is made to the OMDB API and retrieves the movie poster, title, release year and director, and displays it. The user can see the other members profiles and can post in the discussions page where each post can be commented on, liked/disliked, and posts or comments deleted if the logged in user created the posts/comments.',
       description2: 'The point of this project was not to create something that was full featured, but to understand the concepts of how full-stack development works. I would like to revisit this sometime to do a version 2.0. The app is deployed on Heroku and unfortunately as time has moved on, it\'s out of date and no longer active.',
       image: '/stalls.png',
-      githubLink: 'https://github.com/rooky1979/movie_forum',
+      githublink: 'https://github.com/rooky1979/movie_forum',
       tileheight: '1',
+      siteflag: false,
       sitelink: '',
     },
     {
@@ -130,8 +138,9 @@ export const projectdetails = [
       description1: 'After watching some tutorials and reading articles on NextJS, building the pages hasn\'t been an issue, but the styling and placement of containers etc, had been. Design, I have discovered, is a learning gap that I have to improve on and gain more understanding of the CSS parameters.',
       description2: 'I decided to try a styling framework and after doing some research on SASS, Tailwind and Bootstrap, I decided on learning Tailwind. I have found that with Tailwind after taking some time to understand it that it feels like it has a lot more control. I also added simple transistions to the banner and pages using Framer Motion. However, CSS is another gap and on the next project I will go back to basics and not use a styling framework.',
       image: '/mrooksolns.png',
-      githubLink: 'https://github.com/rooky1979/m_rook_solutions',
+      githublink: 'https://github.com/rooky1979/m_rook_solutions',
       tileheight: '1',
+      siteflag: true,
       sitelink: 'https://mrooksolutions.vercel.app/',
     },
     {
@@ -148,8 +157,9 @@ export const projectdetails = [
       description3:
         "The client was happy with what the team produced and it was fun using Flutter/Dart and a great learning experience. As it is an object orientated language, it was quite easy to learn. Google Firebase I found was a great package and has potential for many applications, but it wasn't suitable for us. We recieved an A for this project",
       image: '/yfm.png',
-      githubLink: 'https://github.com/rooky1979/yfm',
+      githublink: 'https://github.com/rooky1979/yfm',
       tileheight: '1',
+      siteflag: false,
       sitelink: '',
     },
     {
@@ -166,8 +176,9 @@ export const projectdetails = [
         'Another fun project which was a great introduction into the fundamentals of web development. The hardest part for this assignment was the PHP and database queries. Missing a character in the query string proved difficult at times and problem solving it until I found an online query checker which was invaluable. This assignment recieved an A+',
   
       image: '/taxiwebsite1.png',
-      githubLink: 'https://github.com/rooky1979/simpleTaxiWebsite',
+      githublink: 'https://github.com/rooky1979/simpleTaxiWebsite',
       tileheight: '1',
+      siteflag: false,
       sitelink: '',
     },
     {
@@ -183,8 +194,9 @@ export const projectdetails = [
       description2:
         'There were 3 different species that would randomly hatch at the start of the game so the user would not know what the pet would be. I could have used images from the internet to create this, but I wanted to not only create it all myself, but create something that looked like a child would have drawn. Hence the basic background and sprite designs. I also incorporated sounds and speech all recorded by myself. This project recieved an A+.',
       image: '/virtualpet.jpg',
-      githubLink: 'https://github.com/rooky1979/NetbeansProjects',
+      githublink: 'https://github.com/rooky1979/NetbeansProjects',
       tileheight: '1',
+      siteflag: false,
       sitelink: '',
     },
     {
@@ -200,8 +212,9 @@ export const projectdetails = [
       description2:
         'A great fun assignment that proved to be tricky when navigating the 2D array for the seats and then assigning the event listeners. It was an interesting peek into the realm of GUI and I drew my own icons for the seats, each with different colours for the age group and empty seats. This assignment recieved full marks (50/50)',
       image: '/cinemabooking.png',
-      githubLink: 'https://github.com/rooky1979/NetbeansProjects',
+      githublink: 'https://github.com/rooky1979/NetbeansProjects',
       tileheight: '1',
+      siteflag: false,
       sitelink: '',
     },
   ];

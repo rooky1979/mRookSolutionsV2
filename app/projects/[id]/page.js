@@ -55,6 +55,9 @@ export default function Project({ params }) {
         <motion.p className={projectstyles.projectlanguages}>
           <strong>Stack:&nbsp;</strong>{projectData?.languages}
         </motion.p>
+{/*         <motion.p className={projectstyles.projectlanguages}>
+        <a className={projectstyles.sitelink} href={projectData?.githublink} rel="noopener noreferrer" target="_blank">Link to code on Github</a>
+        </motion.p> */}
         <motion.p className={projectstyles.projectDescription}>
           {projectData?.description}
         </motion.p>
@@ -67,8 +70,15 @@ export default function Project({ params }) {
         <motion.p className={projectstyles.projectDescription}>
           {projectData?.description3}
         </motion.p>
+        <motion.p className={projectstyles.sitelinktext}>
+        <a className={projectstyles.sitelink} href={projectData?.githublink} rel="noopener noreferrer" target="_blank">Link to code on Github</a>
+        </motion.p>
+        {projectData?.siteflag ? (<motion.p className={projectstyles.sitelinktext}>
+          This app is live and can be found&nbsp;<Link className={projectstyles.sitelink} href={projectData?.sitelink} rel="noopener noreferrer" target="_blank">here</Link>
+        </motion.p>) : (<motion.p className={projectstyles.sitelinktext}></motion.p>)}
         <Link href="/projects">
-        <motion.button className={projectstyles.backButton}>Back to Projects</motion.button></Link>
+        <motion.button className={projectstyles.backButton}>Back to Projects</motion.button>
+        </Link>
       </motion.div>
     </>
   );

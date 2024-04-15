@@ -66,6 +66,22 @@
     display: flex;
     color: #8800ff;
 }
+.sitelinktext {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.sitelink {
+  color: #8800ff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.2s ease-in;
+}
+.sitelink:hover {
+  color: #cd99fb;
+}
 .projectdate {
     font-size: 18px;
     font-weight: 300;
