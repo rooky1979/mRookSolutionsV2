@@ -7,7 +7,7 @@ export default function experience() {
     return (
         <>
         <Navbar isHomepage={true} />
-        <div><p>About page</p></div>
+        <div><p>Experience page</p></div>
         </>
     )
 
