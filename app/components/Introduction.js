@@ -111,7 +111,7 @@ const Introduction = () => {
           </p>
         </div>
         <div className={introStyles.officepic}>
-          <img src="/homepage.png" alt="Office setup" />
+          <img src="/computer.jpeg" alt="Office setup" />
         </div>
       </motion.div>
     </>
