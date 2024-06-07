@@ -1,12 +1,12 @@
 Check each page and see what needs fixing
 
 Mobile Menu
-OKAY - Seems to work and sometimes not work
+OKAY - Seems to work and sometimes not work. In iOS simulator, it looks fine
 
 Landing Page 
 
 - Error in Dev tools, not program breaking
-- In mobile views, the scroll triggers aren't as good as full screen
+- In mobile views, the scroll triggers aren't as good as full screen but in iOS simulator it's fine
 
 About Page 
 
@@ -18,7 +18,7 @@ All done (I think)
 
 Technologies page 
 
-- Everything
+- All done (I think)
 
 Experience Page 
 Transferrable skills and include documentation/21 crf part 11(FDA stuff)

@@ -30,6 +30,8 @@ export const techList1 = [
   "/redux.png",
   "/javascript.png",
   "/express.png",
+  "/sanity.png",
+  "/alm.png",
 ];
 
 export const projects = [
