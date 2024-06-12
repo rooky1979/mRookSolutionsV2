@@ -1,6 +1,7 @@
 .aboutsection {
   text-align: center;
   padding: 3rem 0;
+  margin-right: 50px;
 }
 .aboutTitle {
   opacity: 0;
@@ -13,4 +14,14 @@
   color: blue;
   font-size: 24px;
   font-weight: 600;
+}
+@media (max-width: 933px) {
+  .aboutsection {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 430px) {
+  .aboutsection {
+    margin-right: 0px;
+  }
 }

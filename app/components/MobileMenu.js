@@ -22,6 +22,9 @@ const MobileMenu = ({ isOpen }) => {
         src="/flippedlogo3.png"
         alt="rook bird on a rook chesspiece"
       />
+      <Link className={mobileStyles.links} href="/">
+        Home
+      </Link>
       <Link className={mobileStyles.links} href="/about">
         About
       </Link>
