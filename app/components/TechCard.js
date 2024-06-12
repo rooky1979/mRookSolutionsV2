@@ -19,6 +19,7 @@ const Carousel = ({ images, interval }) => {
 
   const inlineStyle = {
     transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0)',
+    
   };
 
   return (
