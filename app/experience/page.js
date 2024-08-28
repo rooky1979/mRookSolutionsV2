@@ -68,7 +68,7 @@ export default function experience() {
               spanning over 5 years in the pharmaceutical industry.
             </li>
             <li className={expStyles.listItem}>
-              Leadership; A great leader can push people up to where they want
+              Leadership; I believe a great leader can push people up to where they want
               to go and pull people up to where they need to be. I lead by
               example putting in the work alongside.
             </li>
@@ -84,12 +84,12 @@ export default function experience() {
               Thrives under pressure, doesn’t crumble and begs to be challenged.
             </li>
             <li className={expStyles.listItem}>
-              Great rapport in dealing with customers, both internally and
+              Great rapport in dealing with clients, both internally and
               externally.
             </li>
             <li className={expStyles.listItem}>Great attention to detail.</li>
             <li className={expStyles.listItem}>
-              Vast experience with writing business cases and proposals.
+              Vast experience with writing and reviewing business cases and proposals.
             </li>
           </motion.ul>
         </motion.div>
@@ -168,7 +168,7 @@ export default function experience() {
           <motion.ul className={expStyles.list}>
             <li className={expStyles.listTitle}>Documentation</li>
             <li className={expStyles.listItem}>
-              Vast experience in writing and reviewing reports, manuals,
+              Highly experienced in writing and reviewing reports, manuals,
               standard operating procedures, various plans, protocols and more
               to meet FDA 21 CFR Part 11 Compliance.
             </li>

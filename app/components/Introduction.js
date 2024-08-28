@@ -98,16 +98,14 @@ const Introduction = () => {
         <div className={introStyles.introtext}>
           <p>
             Welcome to <span className={introStyles.boldspan}>M.Rook Solutions</span>
-            . This isn't just a website; it's an interactive journey through my
+            . This isn't just a website; think of it as an interactive CV. A journey through my
             experiences and abilities. Get to know who I am while exploring my
             skills, projects, and more.{" "}
           </p>
           <br />
           <p>
-            If you need help with a technical project or seek advice on web
-            development, feel free to reach out at{" "}
-            <span className={introStyles.email}>mrook1979@hotmail.com</span>. Let's
-            embark on this adventure together!
+            If you need help with a technical project, feel free to reach out at{" "}
+            <span className={introStyles.email}>mrook1979@hotmail.com</span>.
           </p>
         </div>
         <div className={introStyles.officepic}>
