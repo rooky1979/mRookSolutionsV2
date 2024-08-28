@@ -1,0 +1,52 @@
+.title {
+  font-size: 80px;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.listContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.listBox {
+  /* border: 2px solid rgb(199, 139, 255); */
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  background-color: #f1e1ff;
+  flex-grow: 1; /* Ensures boxes take equal width */
+  min-width: 300px; /* Minimum width for smaller screens */
+  max-width: 750px; /* Maximum width to maintain consistency */
+}
+.list {
+  list-style-type: none;
+}
+.listTitle {
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.listDate {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+.listItem {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+  margin-left: 20px;
+  list-style-type: disc;
+}
+@media (max-width: 431px) {
+    .title {
+        font-size: 40px;
+    }
+  }
