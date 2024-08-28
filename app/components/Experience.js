@@ -45,7 +45,7 @@ const Experience = () => {
           a mature graduate whilst gaining new ones."
         </p>
         <div className={experiencehomeStyles.link}>
-          <Link href="/projects">Read about experience here...</Link>
+          <Link href="/experience">Read about experience here...</Link>
         </div>
       </div>
     </div>
