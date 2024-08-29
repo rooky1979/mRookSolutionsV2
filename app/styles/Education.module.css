@@ -37,7 +37,7 @@
     background-color: #f1e1ff;
     padding: 10px;                  
     display: flex;       
-    justify-content: start;             
+    justify-content: flex-start;             
   }
   .textcontainerCert {
     display: flex;             
@@ -49,8 +49,7 @@
     height: 200px;         
   }
   
-  .textCert {
-    /* text-align: center;  */       
+  .textCert {    
     background-color: #f1e1ff;
     padding: 10px;
     width: 100%; 
