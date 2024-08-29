@@ -76,7 +76,7 @@ export default function education() {
           </p>
         </motion.div>
       </motion.div>
-
+      
       <div>
         {year_1.map((paper, index) => (
           <Papers

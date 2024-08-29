@@ -13,7 +13,7 @@ const toggleDropdown = () => {
 };
 
   return (
-    <div>
+    <div className={educationStyles.papercontainer}>
       <div
         onClick={toggleDropdown}
         className={educationStyles.paper}
@@ -29,7 +29,9 @@ const toggleDropdown = () => {
         >
           {papers.map((paper) => (
             <li key={paper.id}>
-              {paper.paper} Level: {paper.level} Grade: {paper.grade}
+              <span>{paper.paper}</span> 
+              <span>Level: {paper.level}</span> 
+              <span>Grade: {paper.grade}</span>
             </li>
           ))}
         </motion.ul>

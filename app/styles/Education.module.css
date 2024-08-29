@@ -54,14 +54,43 @@
     padding: 10px;
     width: 100%; 
   }
+  .papercontainer {
+    max-width: 850px;                /* Define a maximum width for the container */
+    margin: 0 auto;                  /* Center the container horizontally */
+    padding: 20px;                   /* Optional: Add some padding */
+}
 .paper {
-    cursor: 'pointer';
-    background: '#f0f0f0';
-    padding: '10px';
-    margin-bottom: '5px';
-} 
+    cursor: pointer;
+    background: #f1e1ff;
+    padding: 10px;
+    /* margin-bottom: 5px; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
 .paperList {
-    padding: '10px'; 
-    background: '#e0e0e0'; 
+    padding: 10px; 
+    background: #e0e0e0; 
     list-style-type: none;
+    margin: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
+.paperList li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.paperList li:last-child {
+    border-bottom: none;
+}
+.paperList li span {
+    padding: 0 10px;
+}
+.h3 {
+    margin: 0;
+    text-align: center;             /* Center the heading text */
 }
