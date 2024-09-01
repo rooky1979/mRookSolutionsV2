@@ -99,7 +99,7 @@ const Introduction = () => {
           <p>
             Welcome to{" "}
             <span className={introStyles.boldspan}>M.Rook Solutions</span>
-            This isn&apos;t just a website; think of it as an interactive CV. A
+            . This isn&apos;t just a website; think of it as an interactive CV. A
             journey through my experiences and abilities. Get to know who I am
             while exploring my skills, projects, and more.{" "}
           </p>
