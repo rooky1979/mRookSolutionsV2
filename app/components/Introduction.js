@@ -105,7 +105,7 @@ const Introduction = () => {
           </p>
           <br />
           <p>
-            If you need help with a technical project, feel free to reach out at{" "}
+            If you need help with a technical project or would like to collaborate, feel free to reach out at{" "}
             <span className={introStyles.email}>mrook1979@hotmail.com</span>.
           </p>
         </div>

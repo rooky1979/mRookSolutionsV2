@@ -20,7 +20,7 @@ export const tech = [
     {
       id: '4',
       technology: 'HTML/CSS',
-      image: '/HTMLCSS.png',
+      image: '/htmlcss.png',
       level: 'Intermediate',
     },
     {
@@ -38,7 +38,7 @@ export const tech = [
     {
       id: '7',
       technology: 'Next.JS',
-      image: '/nextJS.png',
+      image: '/nextjs.png',
       level: 'Intermediate',
     },
     {
@@ -74,7 +74,7 @@ export const tech = [
     {
       id: '13',
       technology: 'React',
-      image: '/React.jpeg',
+      image: '/react.jpeg',
       level: 'Intermediate',
     },
     {
@@ -116,7 +116,7 @@ export const tech = [
     {
       id: '20',
       technology: 'MongoDB',
-      image: '/MongoDB.png',
+      image: '/mongodb.png',
       level: 'Novice',
     },
     {
@@ -170,19 +170,19 @@ export const tech = [
     {
       id: '29',
       technology: 'SAP',
-      image: '/SAP.png',
+      image: '/sap.png',
       level: 'Intermediate',
     },
     {
       id: '30',
       technology: 'SAPUI5',
-      image: '/SAPUI5.png',
+      image: '/sapui5.png',
       level: 'Novice/Intermediate',
     },
     {
       id: '31',
       technology: 'ABAP',
-      image: '/ABAP.jpeg',
+      image: '/abap.jpeg',
       level: 'Intermediate',
     },
     {

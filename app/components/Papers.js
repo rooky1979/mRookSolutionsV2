@@ -24,22 +24,21 @@ const Papers = ({ year, averageGrade, papers }) => {
           </span>
         </h3>
       </div>
-      {isOpen && (
-        <motion.ul
-          initial={{ height: 0, opacity: 0 }}
-          animate={{ height: "auto", opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          className={educationStyles.paperList}
-        >
-          {papers.map((paper) => (
-            <li key={paper.id}>
-              <span>{paper.paper}</span>
-              <span>Level: {paper.level}</span>
-              <span>Grade: {paper.grade}</span>
-            </li>
-          ))}
-        </motion.ul>
-      )}
+      <motion.ul
+        initial={false}
+        animate={{ height: isOpen ? "auto" : 0, opacity: isOpen ? 1 : 0 }}
+        transition={{ duration: 0.3 }}
+        className={educationStyles.paperList}
+        style={{ overflow: "hidden" }}
+      >
+        {papers.map((paper) => (
+          <li key={paper.id}>
+            <span>{paper.paper}</span>
+            <span>Level: {paper.level}</span>
+            <span>Grade: {paper.grade}</span>
+          </li>
+        ))}
+      </motion.ul>
     </div>
   );
 };

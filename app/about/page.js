@@ -77,7 +77,7 @@ export default function About() {
             ever done. The fear of the unknown was intense. Self-doubt and
             imposter syndrome were rampant. &quot;What if I fail?&quot; But I
             seem to operate under pressure best and when I want something, I go
-            for it. Hey, if I&apos;m going to walk on thin ice, I may as well
+            for it. Hey, if I&apos;m going to walk on ice, I may as well
             tap dance, right?
           </p>
           <br />
@@ -112,7 +112,7 @@ export default function About() {
           <p className={aboutStyles.text}>
             I laugh, I joke. I stay child-like with curiosity and wonder, but
             not childish. I surf, I skate, I play pinball and retro games. I
-            love cinema and spending time with family and friends. I love life.
+            love cinema, reading, podcasts, and spending time with family and friends. I love life.
           </p>
           <br />
           <p className={aboutStyles.text}>
