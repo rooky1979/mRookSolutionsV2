@@ -148,7 +148,6 @@ export default function education() {
           MERN Stack Front To Back: Full Stack React, Redux & Node.js with Brad Traversy
           </p>
         </motion.div>
-
       </motion.div>
     </>
   );
