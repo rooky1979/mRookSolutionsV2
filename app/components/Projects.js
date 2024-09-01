@@ -29,16 +29,18 @@ const Projects = () => {
   }, [projectsRef]);
 
   return (
-    <div className={projectshomeStyles.projectcontainer}
-    ref={projectsRef}
-        style={{ opacity: 0 }}>
+    <div
+      className={projectshomeStyles.projectcontainer}
+      ref={projectsRef}
+      style={{ opacity: 0 }}
+    >
       <ProjectCarousel images={projects} />
       <div className={projectshomeStyles.quotecontainer}>
         <h2 className={projectshomeStyles.title}>Projects</h2>
         <p className={projectshomeStyles.quote}>
-          "With technology and frameworks constantly changing, it's important
-          for me to stay active, contemporary and not stagnate. Keep the code
-          rust off and not get left behind."
+          &quot;With technology and frameworks constantly changing, it&apos;s
+          important for me to stay active, contemporary, and not stagnate. Keep
+          the code rust off and not get left behind.&quot;
         </p>
         <div className={projectshomeStyles.link}>
           <Link href="/projects">Read about projects here...</Link>

@@ -82,10 +82,10 @@ const Introduction = () => {
           variants={textContainerVariants}
         >
           <motion.p className={introStyles.heading1} variants={textVariant1}>
-          Quiet in its corner on the board,
+            Quiet in its corner on the board,
           </motion.p>
           <motion.p className={introStyles.heading2} variants={textVariant2}>
-          the Rook emerges, adapts, conquers...
+            the Rook emerges, adapts, conquers...
           </motion.p>
         </motion.div>
       </div>
@@ -97,10 +97,11 @@ const Introduction = () => {
       >
         <div className={introStyles.introtext}>
           <p>
-            Welcome to <span className={introStyles.boldspan}>M.Rook Solutions</span>
-            . This isn't just a website; think of it as an interactive CV. A journey through my
-            experiences and abilities. Get to know who I am while exploring my
-            skills, projects, and more.{" "}
+            Welcome to{" "}
+            <span className={introStyles.boldspan}>M.Rook Solutions</span>
+            This isn&apos;t just a website; think of it as an interactive CV. A
+            journey through my experiences and abilities. Get to know who I am
+            while exploring my skills, projects, and more.{" "}
           </p>
           <br />
           <p>

@@ -38,11 +38,12 @@ const Experience = () => {
       <div className={experiencehomeStyles.quotecontainer}>
         <h2 className={experiencehomeStyles.title}>Experience</h2>
         <p className={experiencehomeStyles.quote}>
-          "It was scary thing to make the jump from 17 years in Analytical
-          Chemistry/Validation to Software Development at 39; but it's the best
-          thing I ever done going at it warp speed. I've learned that I have
-          more transferable skills/assets than I realised and a lot to offer as
-          a mature graduate whilst gaining new ones."
+          &quot;It was a scary thing to make the jump from 17 years in
+          Analytical Chemistry/Validation to Software Development at 39; but
+          it&apos;s the best thing I&apos;ve ever done going at it warp speed.
+          I&apos;ve learned that I have more transferable skills/assets than I
+          realised and a lot to offer as a mature graduate whilst gaining new
+          ones.&quot;
         </p>
         <div className={experiencehomeStyles.link}>
           <Link href="/experience">Read about experience here...</Link>

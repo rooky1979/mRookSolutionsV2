@@ -44,13 +44,17 @@ const Technologies = () => {
 
   return (
     <>
-      <div className={techStyles.technologies} ref={techRef} style={{ opacity: 0 }}>
+      <div
+        className={techStyles.technologies}
+        ref={techRef}
+        style={{ opacity: 0 }}
+      >
         <div className={techStyles.quotecontainer}>
           <h2 className={techStyles.techTitle}>Technologies</h2>
           <p className={techStyles.quote}>
-            "I believe it's important to have exposure to a wide range of
-            technologies and frameworks; but double down on a select few.
-            Fundamentals are key."
+            &quot;I believe it&apos;s important to have exposure to a wide range
+            of technologies and frameworks; but double down on a select few.
+            Fundamentals are key.&quot;
           </p>
           <div className={techStyles.link}>
             <Link href="/technologies">Read about technologies here...</Link>
