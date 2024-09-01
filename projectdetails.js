@@ -3,7 +3,7 @@ export const projectdetails = [
       id: 1,
       title: 'M Rook Solutions V2.0',
       tiletitle: 'M Rook Solutions V2.0',
-      date: 'November 2023 - April 2024',
+      date: 'November 2023 - September 2024',
       tagline: 'A revamp of the interactive CV M Rook Solutions Website.',
       languages: 'NextJS, React components, GSAP/ScrollTrigger, CSS, Chat-GPT, Vercel',
       description: 'The website that you are using right now. The initial version of this site was the first project I had done when I had graduated in 2021 and there were many things with it that I was not happy with. My skillset at that time was limited and for what it was, I thought it wasn\'t too bad of a job.',

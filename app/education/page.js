@@ -20,41 +20,49 @@ export default function education() {
       >
         Education
       </motion.h2>
-      <motion.div 
-              className={educationStyles.container}
-              initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.0, delay: 0.5 }}>
+      <motion.div
+        className={educationStyles.container}
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2.0, delay: 0.5 }}
+      >
         <motion.div className={educationStyles.imagecontainer}>
-          <img src="/ABAPcert.png" alt="AUT" />
+          <img src="/ABAPcert.png" alt="ABAP Certification" />
         </motion.div>
         <motion.div className={educationStyles.textcontainerCert}>
           <p className={educationStyles.textCert}>
-          <strong>SAP Certified Development Associate - ABAP with SAP NetWeaver 7.50</strong>
+            <strong>
+              SAP Certified Development Associate - ABAP with SAP NetWeaver 7.50
+            </strong>
           </p>
         </motion.div>
       </motion.div>
-      <br/>
-      <motion.div 
-              className={educationStyles.container}
-              initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.0, delay: 0.5 }}>
+      <br />
+      <motion.div
+        className={educationStyles.container}
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2.0, delay: 0.5 }}
+      >
         <motion.div className={educationStyles.textcontainerCert}>
           <p className={educationStyles.textCert}>
-          <strong>SAP Certified Application Associate - Business Process Integration with SAP S/4HANA 2020</strong>
+            <strong>
+              SAP Certified Application Associate - Business Process Integration
+              with SAP S/4HANA 2020
+            </strong>
           </p>
         </motion.div>
         <motion.div className={educationStyles.imagecontainer}>
-          <img src="/certification.png" alt="AUT" />
+          <img src="/certification.png" alt="SAP Certification" />
         </motion.div>
       </motion.div>
-      <br/>
-      <motion.div 
-              className={educationStyles.container}
-              initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2.0, delay: 0.5 }}>
+      <br />
+      <motion.div
+        className={educationStyles.container}
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2.0, delay: 0.5 }}
+      >
         <motion.div className={educationStyles.imagecontainer}>
           <img src="/AUT2.jpg" alt="AUT" />
         </motion.div>
@@ -63,7 +71,8 @@ export default function education() {
             <strong>School:&nbsp;</strong>Auckland University of Technology
           </p>
           <p className={educationStyles.text}>
-            <strong>Course:&nbsp;</strong>Bachelor Computer and Information Science
+            <strong>Course:&nbsp;</strong>Bachelor Computer and Information
+            Science
           </p>
           <p className={educationStyles.text}>
             <strong>Major:&nbsp;</strong>Software Development
@@ -76,8 +85,12 @@ export default function education() {
           </p>
         </motion.div>
       </motion.div>
-      
-      <div>
+
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2.0, delay: 0.5 }}
+      >
         {year_1.map((paper, index) => (
           <Papers
             key={index}
@@ -86,8 +99,12 @@ export default function education() {
             papers={paper.papers}
           />
         ))}
-      </div>
-      <div>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2.0, delay: 0.5 }}
+      >
         {year_2.map((paper, index) => (
           <Papers
             key={index}
@@ -96,8 +113,12 @@ export default function education() {
             papers={paper.papers}
           />
         ))}
-      </div>
-      <div>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2.0, delay: 0.5 }}
+      >
         {year_3.map((paper, index) => (
           <Papers
             key={index}
@@ -106,7 +127,29 @@ export default function education() {
             papers={paper.papers}
           />
         ))}
-      </div>
+      </motion.div>
+      <br />
+      <motion.div
+        className={educationStyles.container}
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2.0, delay: 0.5 }}
+      >
+        <motion.div className={educationStyles.textcontainerFurther}>
+          <p className={educationStyles.textCert}>
+            <strong>
+              Further Education/Courses
+            </strong>
+          </p>
+          <p className={educationStyles.textCert}>
+          Flutter & Dart - The Complete Flutter App Development Course with Paulo Dichone
+          </p>
+          <p className={educationStyles.textCert}>
+          MERN Stack Front To Back: Full Stack React, Redux & Node.js with Brad Traversy
+          </p>
+        </motion.div>
+
+      </motion.div>
     </>
   );
 }
