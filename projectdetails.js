@@ -57,7 +57,7 @@ export const projectdetails = [
       description: 'Continuing to build on NextJS and React components, this is a website that incorporates some new learned techniques.',
       description1: 'A tattoo artist friend residing in Canada allowed the use of his IP to allow a personal project to occur. This website incorporates a striking landing page with full-motion video of the artist over a loop displaying a brief outline of his process.',
       description2: 'It contains a showcasing of his portfolio and available art where embla was used to create an image carousel which was new to me. A contact form utilising Mailtrap was set up for users to send email enquiries and bookings. It has a subscriber page so that a user can subscribe to a mailing list using Mailchimp. A blog was created that can be updated via Sanity.io. This project was something to help and continue to build on JavaScript, NextJS and React component programming. Also, it was decided to use just native CSS to really get a handle on styling without any kind of framework. Take it back to basics if you will. The challenges were around creating the new features using Mailchimp/Mailtrap, using Sanity.io and getting the image carousels to work. All new things to learn and enjoyable (if not frustrating at times!).',
-      image: '/inkLab.png',
+      image: '/inklab.png',
       githublink: 'https://github.com/rooky1979/inklab',
       tileheight: '1',
       siteflag: true,
