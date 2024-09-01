@@ -12,9 +12,9 @@
     "embla-carousel-react": "^8.0.0-rc14",
     "framer-motion": "^10.16.4",
     "gsap": "^3.12.2",
-    "next": "^14.1.4",
-    "react": "latest",
-    "react-dom": "latest",
+    "next": "^14.2.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "scrollmagic": "^2.0.8",
     "scrollmagic-plugin-gsap": "^1.0.4"
   },
