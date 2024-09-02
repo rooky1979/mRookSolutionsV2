@@ -45,7 +45,7 @@ const Timeline = () => {
       <div ref={timelineRef} style={{ opacity: 0 }} className={timelineStyles.timeline}>
         <div className={timelineStyles.outer}>
           <TimelineElement
-            title="Born: June 1979"
+            title="Born: 1979"
             description="7lb 6oz. Reading, England"
           />
           <TimelineElement
